@@ -14979,5 +14979,7 @@ p.checkout-coupon input[type="text"]:focus {
   left: 0;
   right: 0;
 }
-
+.tp-header-main__pl {
+    background-color: #fff;
+}
 /*# sourceMappingURL=main.css.map */
