@@ -14983,3 +14983,15 @@ p.checkout-coupon input[type="text"]:focus {
     background-color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
+.tp-service-3__content p {
+    font-size: 12px !important;
+    line-height: 16px !important;
+}
+.tp-service-3__content p {
+    margin-bottom: 0;
+        padding-bottom: 0;
+}
+.tp-footer__info p {
+    font-size: 14px;
+    line-height: 22px;
+}
