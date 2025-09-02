@@ -75,7 +75,7 @@
 
         // FIXME: Update this to your desired email address.
 
-        $recipient = "slinggroups@gmail.com";
+        $recipient = "info@slinggroups.in";
 
 
 
