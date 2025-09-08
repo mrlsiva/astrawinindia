@@ -1352,18 +1352,16 @@ div.demo img {
 }
 
 .tp-btn-border-md {
-  color: var(--tp-common-black);
-  border: 1px solid rgba(50, 57, 74, 0.15);
-  height: 61px;
-  line-height: 61px;
-  padding: 0 43px;
-  overflow: hidden;
-  display: inline-block;
-  font-weight: 500;
-  font-size: 16px;
-  text-transform: capitalize;
-  position: relative;
-  z-index: 9;
+    color: var(--tp-common-black);
+    border: 1px solid rgba(50, 57, 74, 0.15);
+    padding: 12px 28px;
+    overflow: hidden;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 9;
 }
 .tp-btn-border-md::before {
   position: absolute;
@@ -14980,18 +14978,21 @@ p.checkout-coupon input[type="text"]:focus {
   right: 0;
 }
 .tp-header-main__pl {
-    background-color: #fff;
+  background-color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
 .tp-service-3__content p {
-    font-size: 12px !important;
-    line-height: 16px !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
 }
 .tp-service-3__content p {
-    margin-bottom: 0;
-        padding-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 .tp-footer__info p {
-    font-size: 14px;
-    line-height: 22px;
+  font-size: 14px;
+  line-height: 22px;
+}
+.tp-brand__item img {
+  max-height: 48px;
 }
