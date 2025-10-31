@@ -8,7 +8,7 @@
                 <h4>Software Solutions</h4>
                 <p class="text-size-16 mb-2">Delivering customized, scalable, and high-performance software applications powered by AI and automation, enabling businesses to innovate, streamline operations, and drive digital growth
                 </p>
-                <a class="read_more text-decoration-none" href="./service-details.php">Read More</a>
+                <a class="read_more text-decoration-none" href="./service-details.php?service=software-solutions">Read More</a>
             </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-12">
@@ -20,7 +20,7 @@
                     </figure>
                     <h4>IoT Systems</h4>
                     <p class="text-size-16 mb-2">Designing intelligent IoT ecosystems that connect devices, capture real-time data, and generate actionable insights through AI-driven analytics — for smarter, more efficient decision-making.</p>
-                <a class="read_more text-decoration-none" href="./service-details.php">Read More</a>
+                <a class="read_more text-decoration-none" href="./service-details.php?service=iot-systems">Read More</a>
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@
                 <h4>Cybersecurity Services</h4>
                 <p class="text-size-16 mb-2">Safeguarding digital assets with advanced threat intelligence, proactive monitoring, and compliance-driven protection strategies to ensure complete cyber resilience.
                 </p>
-                <a class="read_more text-decoration-none" href="./service-details.php">Read More</a>
+                <a class="read_more text-decoration-none" href="./service-details.php?service=cybersecurity-services">Read More</a>
             </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-12">
@@ -45,7 +45,7 @@
                     </figure>
                     <h4>Managed IT Services</h4>
                     <p class="text-size-16 mb-2">Providing end-to-end IT management — from infrastructure monitoring to helpdesk support — ensuring reliability, continuity, and operational excellence.</p>
-                <a class="read_more text-decoration-none" href="./service-details.php">Read More</a>
+                <a class="read_more text-decoration-none" href="./service-details.php?service=managed-it-services">Read More</a>
                 </div>
             </div>
         </div>
@@ -59,7 +59,7 @@
                 <h4>Infrastructure Management</h4>
                 <p class="text-size-16 mb-2">Building and maintaining robust IT infrastructures that support scalability, security, and seamless business performance across environments.
                 </p>
-                <a class="read_more text-decoration-none" href="./service-details.php">Read More</a>
+                <a class="read_more text-decoration-none" href="./service-details.php?service=infrastructure-management">Read More</a>
             </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-12">
@@ -70,7 +70,7 @@
                     </figure>
                     <h4>Next-Generation Workspace Technologies</h4>
                     <p class="text-size-16 mb-2">Transforming workplaces through cloud, collaboration, and automation tools that drive productivity, mobility, and smarter employee experiences.</p>
-                <a class="read_more text-decoration-none" href="./service-details.php">Read More</a>
+                <a class="read_more text-decoration-none" href="./service-details.php?service=workspace-technologies">Read More</a>
                 </div>
             </div>
         </div>
