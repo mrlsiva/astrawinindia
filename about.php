@@ -80,21 +80,22 @@
                     <h2>What Drives Us:</h2>
                     <p class="text-size-18">At Astrawin, we’re not just your technology provider — we’re your digital transformation partner, committed to driving your success today and preparing you for the future.</p>
                     <p class="text-size-18"> ✨ Driven by Technology. Defined by Trust. </p>
-                    <a id="mission" class="btn active">Our Mission</a>
-                    <a id="vision" class="btn">Our Vision</a>
-                    <a id="core-values" class="btn">Our Core Values</a>
+                    <a id="mission-btn" class="abt-content btn active">Our Mission</a>
+                    <a id="vision-btn" class="abt-content btn">Our Vision</a>
+                    <a id="core-values-btn" class="abt-content btn">Our Core Values</a>
+                    <a id="diff" class="abt-content btn">What Makes Us Different</a>
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
-                <div class="aboutpage_content active" id="mission" data-aos="fade-left">
+                <div class="aboutpage_content active" id="mission-content" data-aos="fade-left">
                     <h2>Our Mission:</h2>
                     <p class="text-size-18">To empower businesses with reliable, intelligent, and secure technology solutions that drive measurable outcomes, improve efficiency, and inspire innovation across industries.</p>
                 </div>
-                <div class="aboutpage_content" id="vision" data-aos="fade-left">
+                <div class="aboutpage_content" id="vision-content" data-aos="fade-left">
                     <h2>Our Vision:</h2>
                     <p class="text-size-18">To be a trusted global technology partner — shaping a smarter, safer, and more connected digital future through continuous innovation and excellence.</p>
                 </div>
-                <div class="aboutpage_content" id="core-values" data-aos="fade-left">
+                <div class="aboutpage_content" id="core-values-content" data-aos="fade-left">
                     <h2>Our Core Values:</h2>
                     <ul class="text-size-18">
                         <li> Integrity: Building trust through transparency and accountability.</li>
@@ -103,6 +104,168 @@
                         <li>Excellence: Delivering quality that exceeds expectations.</li>
                         <li> Collaboration: Working together to turn ideas into impact.</li>
                     </ul>
+                </div>
+                <div class="aboutpage_content" id="diff" data-aos="fade-left">
+                    <h2>What Makes Us Different</h2>
+                    <ul class="text-size-18">
+                        <li> End-to-End Expertise: From software development to cybersecurity and managed IT, we provide complete digital ecosystem support under one roof.</li>
+                        <li>AI-Driven Innovation: We integrate artificial intelligence, automation, and analytics to help businesses work smarter and faster.</li>
+                        <li> Uncompromised Security: Every solution is designed with built-in data protection, compliance, and cyber resilience.</li>
+                        <li> Customer-Centric Approach: We listen, adapt, and deliver — ensuring every engagement adds measurable value.</li>
+                        <li> Trusted Team of Experts: Our skilled professionals bring a blend of technical depth and business insight to every project.</li>
+                        <li> Commitment to Quality: Every solution is tested, optimized, and aligned with your long-term business goals.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Clients and Partners Section -->
+<section class="clients-partners-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="clients-partners_content text-center" data-aos="fade-up">
+                    <h2 class="mb-4">Our Trusted Clients & Partners</h2>
+                    <p class="text-size-18 mb-5">We're proud to work with leading organizations and technology partners who trust us to deliver excellence.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Clients Slider -->
+        <div class="row mb-5">
+            <div class="col-12">
+                <h4 class="text-center mb-4">Technology Collaborators Our Technology Allies</h4>
+                <div class="slider-container">
+                    <button class="slider-btn prev-btn clients-prev">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <div class="clients-slider">
+                        <div class="client-item">
+                            <img src="./assets/images/clients/1.png" alt="Client 1" class="img-fluid">
+                        </div>
+                        <div class="client-item">
+                            <img src="./assets/images/clients/2.png" alt="Client 2" class="img-fluid">
+                        </div>
+                        <div class="client-item">
+                            <img src="./assets/images/clients/3.png" alt="Client 3" class="img-fluid">
+                        </div>
+                        <div class="client-item">
+                            <img src="./assets/images/clients/4.png" alt="Client 4" class="img-fluid">
+                        </div>
+                        <div class="client-item">
+                            <img src="./assets/images/clients/5.png" alt="Client 5" class="img-fluid">
+                        </div>
+                        <div class="client-item">
+                            <img src="./assets/images/clients/6.jpeg" alt="Client 6" class="img-fluid">
+                        </div>
+                        <div class="client-item">
+                            <img src="./assets/images/clients/7.png" alt="Client 7" class="img-fluid">
+                        </div>
+                        <div class="client-item">
+                            <img src="./assets/images/clients/8.png" alt="Client 8" class="img-fluid">
+                        </div>
+                        <div class="client-item">
+                            <img src="./assets/images/clients/9.png" alt="Client 9" class="img-fluid">
+                        </div>
+                        <div class="client-item">
+                            <img src="./assets/images/clients/10.png" alt="Client 10" class="img-fluid">
+                        </div>
+                        <div class="client-item">
+                            <img src="./assets/images/clients/11.webp" alt="Client 11" class="img-fluid">
+                        </div>
+                        <div class="client-item">
+                            <img src="./assets/images/clients/12.webp" alt="Client 12" class="img-fluid">
+                        </div>
+                        <div class="client-item">
+                            <img src="./assets/images/clients/13.jpeg" alt="Client 13" class="img-fluid">
+                        </div>
+                        <div class="client-item">
+                            <img src="./assets/images/clients/14.webp" alt="Client 14" class="img-fluid">
+                        </div>
+                        <div class="client-item">
+                            <img src="./assets/images/clients/15.jpg" alt="Client 15" class="img-fluid">
+                        </div>
+                        <div class="client-item">
+                            <img src="./assets/images/clients/16.jpg" alt="Client 16" class="img-fluid">
+                        </div>
+                        <div class="client-item">
+                            <img src="./assets/images/clients/17.jpg" alt="Client 17" class="img-fluid">
+                        </div>
+
+                        <div class="client-item">
+                            <img src="./assets/images/clients/19.jpeg" alt="Client 19" class="img-fluid">
+                        </div>
+                        <div class="client-item">
+                            <img src="./assets/images/clients/20.jpeg" alt="Client 20" class="img-fluid">
+                        </div>
+                        <div class="client-item">
+                            <img src="./assets/images/clients/21.jpeg" alt="Client 21" class="img-fluid">
+                        </div>
+                        <div class="client-item">
+                            <img src="./assets/images/clients/22.jpeg" alt="Client 22" class="img-fluid">
+                        </div>
+                        <div class="client-item">
+                            <img src="./assets/images/clients/23.jpeg" alt="Client 23" class="img-fluid">
+                        </div>
+                    </div>
+                    <button class="slider-btn next-btn clients-next">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Partners Slider -->
+        <div class="row">
+            <div class="col-12">
+                <h4 class="text-center mb-4">Leaders who trust us Businesses We Empower</h4>
+                <div class="slider-container">
+                    <button class="slider-btn prev-btn partners-prev">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <div class="partners-slider">
+                        <div class="partner-item">
+                            <img src="./assets/images/partners/1.png" alt="Partner 1" class="img-fluid">
+                        </div>
+                        <div class="partner-item">
+                            <img src="./assets/images/partners/2.jpg" alt="Partner 2" class="img-fluid">
+                        </div>
+                        <div class="partner-item">
+                            <img src="./assets/images/partners/3.png" alt="Partner 3" class="img-fluid">
+                        </div>
+                        <div class="partner-item">
+                            <img src="./assets/images/partners/4.png" alt="Partner 4" class="img-fluid">
+                        </div>
+                        <div class="partner-item">
+                            <img src="./assets/images/partners/5.jpg" alt="Partner 5" class="img-fluid">
+                        </div>
+                        <!-- <div class="partner-item">
+                            <img src="./assets/images/partners/6.jpg" alt="Partner 6" class="img-fluid">
+                        </div> -->
+                        <div class="partner-item">
+                            <img src="./assets/images/partners/7.png" alt="Partner 7" class="img-fluid">
+                        </div>
+                        <div class="partner-item">
+                            <img src="./assets/images/partners/8.jpg" alt="Partner 8" class="img-fluid">
+                        </div>
+                        <div class="partner-item">
+                            <img src="./assets/images/partners/9.png" alt="Partner 9" class="img-fluid">
+                        </div>
+                        <div class="partner-item">
+                            <img src="./assets/images/partners/10.jpg" alt="Partner 10" class="img-fluid">
+                        </div>
+                        <div class="partner-item">
+                            <img src="./assets/images/partners/11.jpg" alt="Partner 11" class="img-fluid">
+                        </div>
+                        <div class="partner-item">
+                            <img src="./assets/images/partners/12.png" alt="Partner 12" class="img-fluid">
+                        </div>
+                    </div>
+                    <button class="slider-btn next-btn partners-next">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
                 </div>
             </div>
         </div>
