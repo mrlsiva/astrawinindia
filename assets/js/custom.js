@@ -52,11 +52,11 @@ $(document).ready(function () {
         // Add active class to clicked button
         $(this).addClass('active');
 
-        // Hide all content divs (both patterns)
-        $('.aboutpage_content[id$="-content"], .aboutpage_content[id="diff"]').removeClass('active');
+        // Hide all content divs (both patterns) - be more specific with selector
+        $('.counter-section .aboutpage_content[id$="-content"], .counter-section .aboutpage_content[id="diff"]').removeClass('active');
 
         // Show the target content div
-        $('#' + targetTab).addClass('active');
+        $('.counter-section #' + targetTab).addClass('active');
     });
 
     // Clients and Partners Slider

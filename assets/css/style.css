@@ -1610,7 +1610,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 130px 0 427px;
+  padding: 130px 0 160px;
 }
 .counter-section .counter-sideimage {
   position: absolute;
@@ -2125,14 +2125,14 @@ p {
 }
 
 /* Tab content visibility */
-.aboutpage_content[id$="-content"],
-.aboutpage_content[id="diff"] {
-  display: none;
+.counter-section .aboutpage_content[id$="-content"],
+.counter-section .aboutpage_content[id="diff"] {
+  display: none !important;
 }
 
-.aboutpage_content[id$="-content"].active,
-.aboutpage_content[id="diff"].active {
-  display: block;
+.counter-section .aboutpage_content[id$="-content"].active,
+.counter-section .aboutpage_content[id="diff"].active {
+  display: block !important;
 }
 
 /* Tab button styles */
