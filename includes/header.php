@@ -21,6 +21,9 @@
                         <li class="nav-item <?= ($current_page == 'services.php') ? 'active' : '' ?>">
                             <a href="services.php" title="Our Services">Our Services</a>
                         </li>
+                        <li class="nav-item <?= ($current_page == 'projects.php') ? 'active' : '' ?>">
+                            <a href="projects.php" title="Our Projects">Our Projects</a>
+                        </li>
                         <li class="nav-item <?= ($current_page == 'contact-us.php') ? 'active' : '' ?>">
                             <a href="contact-us.php" title="Contact Us">Contact Us</a>
                         </li>
