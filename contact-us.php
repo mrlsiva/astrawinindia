@@ -55,7 +55,7 @@
                         </div>
                         <div class="box-content">
                             <h4>Location:</h4>
-                            <p class="text-size-18">121 King Street, Melbourne Victoria 3000 Australia</p>
+                            <p class="text-size-18"> #232,46th Street TVS Colony, Anna Nagar West Extn, Near Bharath Petroleum Chennai - 600101 Tamil Nadu.</p>
                         </div>
                     </div>
                     <div class="contact-box box-mb">
@@ -67,11 +67,9 @@
                         <div class="box-content">
                             <h4 class="heading">Phone:</h4>
                             <p>
-                                <a href="tel:+61383766284" class="text-decoration-none text text-size-18">(+61 3 8376 6284)</a>
+                                <a href="tel:+917397729717" class="text-decoration-none text text-size-18">+91 7397729717</a>
                             </p>
-                            <p>
-                                <a href="tel:+80023456789" class="mb-0 text-decoration-none text text-size-18">(+800 2345 6789)</a>
-                            </p>
+                           
                         </div>
                     </div>
                     <div class="contact-box">
@@ -83,11 +81,11 @@
                         <div class="box-content">
                             <h4 class="heading">Email:</h4>
                             <p>
-                                <a href="mailto:info@Astrawinindia.com" class="text-decoration-none text-size-18">info@Astrawinindia.com</a>
+                                <a href="mailto:info@Astrawinindia.com" class="text-decoration-none text-size-18">info@astrawinindia.com</a>
                             </p>
-                            <p>
+                            <!-- <p>
                                 <a href="mailto:Astrawinindia@gmail.com" class="mb-0 text-decoration-none text-size-18">Astrawinindia@gmail.com</a>
-                            </p>
+                            </p> -->
                         </div>
                     </div>
                 </div>
