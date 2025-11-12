@@ -109,7 +109,14 @@ function renderServiceDetail($service) {
                         <h3>Ready to Transform Your Business?</h3>
                         <p class="text-size-18">Let's discuss how our <?php 
                             $title_lower = strtolower($service['title']); 
+                            
+                            // Handle specific capitalization cases
                             $title_lower = str_replace('iot', 'IoT', $title_lower);
+                            $title_lower = str_replace('managed it services', 'Managed IT Services', $title_lower);
+                            $title_lower = str_replace('cybersecurity services', 'Cybersecurity Services', $title_lower);
+                            $title_lower = str_replace('infrastructure management', 'Infrastructure Management', $title_lower);
+                            $title_lower = str_replace('next-generation workspace technologies', 'Next-Generation Workspace Technologies', $title_lower);
+                            
                             echo $title_lower; 
                         ?> can drive your digital transformation.</p>
                         <a href="./contact-us.php" class="btn-cta">Get Started Today</a>
