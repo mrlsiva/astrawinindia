@@ -3068,10 +3068,6 @@ p {
   transition: all 0.3s ease;
 }
 
-.project-card:hover .project-icon img {
-  filter: grayscale(0) brightness(0) invert(1);
-}
-
 .project-card h4 {
   color: var(--e-global-color-primary);
   font-size: 22px;
