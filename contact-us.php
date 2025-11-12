@@ -19,7 +19,7 @@
                 <div class="col-lg-7 col-md-6 col-sm-12 col-12">
                     <div class="banner_content" data-aos="fade-right">
                         <h1 class="text-white">Contact Us</h1>
-                        <p class="text-white">Huis autem vel eum iure reprehenderit aui in ea voluptate velit esse ruam nihil molestiae conseuatur.</p>
+                        <!-- <p class="text-white">Huis autem vel eum iure reprehenderit aui in ea voluptate velit esse ruam nihil molestiae conseuatur.</p> -->
                         <div class="box">
                             <span class="mb-0">Home</span><i class="first fa-regular fa-angle-right"></i><i class="second fa-regular fa-angle-right"></i><span class="mb-0 box_span">Contact</span>
                         </div> 
