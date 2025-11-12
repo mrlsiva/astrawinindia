@@ -107,7 +107,11 @@ function renderServiceDetail($service) {
                 <div class="col-12">
                     <div class="cta-content text-center" data-aos="fade-up">
                         <h3>Ready to Transform Your Business?</h3>
-                        <p class="text-size-18">Let's discuss how our <?php echo strtolower($service['title']); ?> can drive your digital transformation.</p>
+                        <p class="text-size-18">Let's discuss how our <?php 
+                            $title_lower = strtolower($service['title']); 
+                            $title_lower = str_replace('iot', 'IoT', $title_lower);
+                            echo $title_lower; 
+                        ?> can drive your digital transformation.</p>
                         <a href="./contact-us.php" class="btn-cta">Get Started Today</a>
                     </div>
                 </div>

@@ -47,7 +47,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="faq_content" data-aos="fade-right">
-                        <h5>faq,s</h5>
+                        <h5>faq's</h5>
                         <h2>Frequently Asked Questions</h2>
                         <div class="faq">
                             <div class="row">

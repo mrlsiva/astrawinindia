@@ -79,11 +79,11 @@
                     <!-- <h5>About us</h5> -->
                     <h2>What Drives Us:</h2>
                     <p class="text-size-18">At Astrawin, we’re not just your technology provider — we’re your digital transformation partner, committed to driving your success today and preparing you for the future.</p>
-                    <p class="text-size-18"> ✨ Driven by Technology. Defined by Trust. </p>
+                    <p class="text-size-18"> Driven by Technology. Defined by Trust. </p>
                     <a id="mission-btn" class="abt-content btn active">Our Mission</a>
                     <a id="vision-btn" class="abt-content btn">Our Vision</a>
                     <a id="core-values-btn" class="abt-content btn">Our Core Values</a>
-                    <a id="diff" class="abt-content btn">What Makes Us Different</a>
+
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
@@ -105,17 +105,7 @@
                         <li> Collaboration: Working together to turn ideas into impact.</li>
                     </ul>
                 </div>
-                <div class="aboutpage_content" id="diff" data-aos="fade-left">
-                    <h2>What Makes Us Different</h2>
-                    <ul class="text-size-18">
-                        <li> End-to-End Expertise: From software development to cybersecurity and managed IT, we provide complete digital ecosystem support under one roof.</li>
-                        <li>AI-Driven Innovation: We integrate artificial intelligence, automation, and analytics to help businesses work smarter and faster.</li>
-                        <li> Uncompromised Security: Every solution is designed with built-in data protection, compliance, and cyber resilience.</li>
-                        <li> Customer-Centric Approach: We listen, adapt, and deliver — ensuring every engagement adds measurable value.</li>
-                        <li> Trusted Team of Experts: Our skilled professionals bring a blend of technical depth and business insight to every project.</li>
-                        <li> Commitment to Quality: Every solution is tested, optimized, and aligned with your long-term business goals.</li>
-                    </ul>
-                </div>
+                
             </div>
         </div>
     </div>

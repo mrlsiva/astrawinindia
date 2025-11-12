@@ -87,7 +87,7 @@
                         <h5 data-aos="fade-left" data-aos-duration="1000">Why Choose Us</h5>
                         <h2 data-aos="fade-left" data-aos-duration="1000" class="text-white">Shaping Smarter Businesses with Technology and Trust</h2>
                         <p data-aos="fade-left" data-aos-duration="1000" class="text-white text-size-18">At Astrawin India Pvt. Ltd., we enable enterprises to embrace digital transformation through intelligent technologies and strategic innovation.Our approach combines deep technical expertise with a results-driven mindset — helping businesses operate smarter, safer, and more efficiently.</p>
-                        <ul class="list-unstyled mb-0">
+                        <!-- <ul class="list-unstyled mb-0">
                             <li data-aos="fade-left" data-aos-duration="1000" class="text-white text text-size-18"><i
                                     class="circle fa-regular fa-angle-right"></i> Intelligent Solutions — Leveraging AI and automation to transform business performance.	</li>
                             <li data-aos="fade-left" data-aos-duration="1000" class="text-white text text-size-18"><i
@@ -96,9 +96,9 @@
                                     class="circle fa-regular fa-angle-right"></i>Trusted Security — Building digital confidence with advanced protection and resilience.</li>
                             <li data-aos="fade-left" data-aos-duration="1000" class="text-white text text1 text-size-18"><i
                                     class="circle fa-regular fa-angle-right"></i>Proven Partnership — Delivering measurable value through commitment and collaboration.</li>
-                        </ul>
-                        <!-- <a class="read_more text-decoration-none" href="./about.html">Read More<i
-                                class="circle fa-regular fa-angle-right"></i></a> -->
+                        </ul> -->
+                        <a class="read_more text-decoration-none" data-aos="fade-left" data-aos-duration="1000" href="./why-choose-us.php">Read More<i
+                                class="circle fa-regular fa-angle-right"></i></a>
                     </div>
                 </div>
             </div>
