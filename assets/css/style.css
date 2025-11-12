@@ -19,7 +19,9 @@ Project:  Artelligence
 11. Footer Section
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+US+Modern:wght@100..400&display=swap");
 
 :root {
   --e-global-color-primary: #262626;
@@ -36,10 +38,16 @@ Project:  Artelligence
   --e-global-color-light-black: #2e2e2e;
   --e-gradient-1: #02162d;
   --e-gradient-2: #36e0f7;
+  /* --main-font: "Manrope", sans-serif; */
+  --main-font: "Montserrat", sans-serif;
+  /* --main-font-Ubuntu: "Ubuntu", sans-serif; */
+  --main-font-Ubuntu: "Playwrite US Modern", cursive;
+
+  --main-font-FontAwesome: "FontAwesome";
 }
 
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: var(--main-font-Ubuntu);
 }
 
 .h1,
@@ -88,7 +96,7 @@ p {
   font-size: 20px;
   line-height: 28px;
   font-weight: 400;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   color: var(--e-global-color-text);
 }
 .text-size-18 {
@@ -126,7 +134,7 @@ p {
   font-size: 18px;
   line-height: 18px;
   font-weight: 400;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   color: var(--e-global-color-white) !important;
   margin-top: -6px;
 }
@@ -141,7 +149,7 @@ p {
   font-size: 18px;
   line-height: 18px;
   font-weight: 700;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   padding: 4px 2px 4px 42px;
   text-align: center;
   display: inline-block;
@@ -181,7 +189,7 @@ p {
 .navbar-nav .nav-item .circle:before {
   font-size: 18px;
   padding-top: 2px;
-  font-family: "FontAwesome";
+  font-family: var(--main-font-FontAwesome);
   transition: all 0.3s ease;
   color: var(--e-global-color-dark-blue);
 }
@@ -244,7 +252,7 @@ p {
   font-size: 18px;
   line-height: 18px;
   font-weight: 400;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   padding: 12px 20px;
   margin-top: 0;
 }
@@ -271,7 +279,7 @@ p {
   font-size: 18px;
   line-height: 22px;
   font-weight: 700;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   padding: 4px 2px 4px 42px;
   text-align: center;
   display: inline-block;
@@ -313,7 +321,7 @@ p {
 .banner-section .banner_content .circle:before {
   font-size: 18px;
   padding-top: 2px;
-  font-family: "FontAwesome";
+  font-family: var(--main-font-FontAwesome);
   transition: all 0.3s ease;
   color: var(--e-global-color-dark-blue);
 }
@@ -386,7 +394,7 @@ p {
   font-size: 18px;
   line-height: 22px;
   font-weight: 700;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   padding: 4px 2px 4px 42px;
   text-align: center;
   display: inline-block;
@@ -422,7 +430,7 @@ p {
 .about-section .about_content .circle:before {
   font-size: 18px;
   padding-top: 2px;
-  font-family: "FontAwesome";
+  font-family: var(--main-font-FontAwesome);
   transition: all 0.3s ease;
   color: var(--e-global-color-dark-blue);
 }
@@ -456,7 +464,7 @@ p {
   font-size: 18px;
   line-height: 22px;
   font-weight: 700;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   padding: 4px 2px 4px 42px;
   text-align: center;
   display: inline-block;
@@ -492,7 +500,7 @@ p {
 .service-section .service_content .circle:before {
   font-size: 18px;
   padding-top: 2px;
-  font-family: "FontAwesome";
+  font-family: var(--main-font-FontAwesome);
   transition: all 0.3s ease;
   color: var(--e-global-color-dark-blue);
 }
@@ -505,6 +513,7 @@ p {
   display: inline-block;
   transition: all 0.3s ease-in-out;
   border-bottom: 2px solid #249cb3;
+  width: 100%;
 }
 .service-section .service_contentbox .service-box:hover {
   background-image: linear-gradient(
@@ -540,7 +549,7 @@ p {
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   color: var(--e-global-color-secondary);
   text-transform: uppercase;
 }
@@ -610,7 +619,7 @@ p {
 .choose-section .choose_content ul li .circle:before {
   font-size: 14px;
   padding-top: 2px;
-  font-family: "FontAwesome";
+  font-family: var(--main-font-FontAwesome);
   transition: all 0.3s ease;
   color: var(--e-global-color-white);
 }
@@ -618,7 +627,7 @@ p {
   font-size: 18px;
   line-height: 22px;
   font-weight: 700;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   padding: 4px 2px 4px 42px;
   text-align: center;
   display: inline-block;
@@ -662,7 +671,7 @@ p {
 .choose-section .choose_content .circle:before {
   font-size: 18px;
   padding-top: 2px;
-  font-family: "FontAwesome";
+  font-family: var(--main-font-FontAwesome);
   transition: all 0.3s ease;
   color: var(--e-global-color-dark-blue);
 }
@@ -712,7 +721,7 @@ p {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   border-radius: 20px;
   background-color: #3a4853;
   padding: 5px 18px;
@@ -750,7 +759,7 @@ p {
 .study-section .case-box .circle:before {
   font-size: 18px;
   padding-top: 2px;
-  font-family: "FontAwesome";
+  font-family: var(--main-font-FontAwesome);
   transition: all 0.3s ease;
   color: var(--e-global-color-white);
 }
@@ -764,7 +773,7 @@ p {
   font-size: 18px;
   line-height: 22px;
   font-weight: 700;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   padding: 6px 2px 6px 52px;
   text-align: center;
   display: inline-block;
@@ -800,7 +809,7 @@ p {
 .study-section .circle:before {
   font-size: 18px;
   padding-top: 2px;
-  font-family: "FontAwesome";
+  font-family: var(--main-font-FontAwesome);
   transition: all 0.3s ease;
   color: var(--e-global-color-dark-blue);
 }
@@ -844,7 +853,7 @@ p {
 }
 .testimonial-section .testimonial_content span {
   font-weight: 400;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   color: var(--e-global-color-text);
   display: block;
 }
@@ -1053,7 +1062,7 @@ p {
   width: 48px;
   height: 48px;
   line-height: 48px;
-  font-family: "FontAwesome";
+  font-family: var(--main-font-FontAwesome);
   display: inline-block;
   vertical-align: middle;
   background-image: linear-gradient(
@@ -1119,7 +1128,7 @@ p {
   color: var(--e-global-color-text);
 }
 .faq-section .need_content input {
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -1135,7 +1144,7 @@ p {
   outline: none;
 }
 .faq-section .need_content textarea {
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -1156,7 +1165,7 @@ p {
   font-size: 18px;
   line-height: 22px;
   font-weight: 600;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   padding: 4px 4px 4px 36px;
   text-align: center;
   display: inline-block;
@@ -1193,7 +1202,7 @@ p {
 .faq-section .need_content .circle:before {
   font-size: 18px;
   padding-top: 2px;
-  font-family: "FontAwesome";
+  font-family: var(--main-font-FontAwesome);
   transition: all 0.3s ease;
   color: var(--e-global-color-dark-blue);
 }
@@ -1270,7 +1279,7 @@ p {
   margin-left: 15px;
   font-weight: 400;
   top: 2px;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   color: var(--e-global-color-white);
 }
 .footer-section .middle-portion .links li {
@@ -1325,7 +1334,7 @@ p {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
 }
 .footer-section .footer-image {
   position: absolute;
@@ -1360,7 +1369,7 @@ p {
   display: none;
 }
 #fixed-form-container .body input {
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -1376,7 +1385,7 @@ p {
   outline: none;
 }
 #fixed-form-container .body textarea {
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -1397,7 +1406,7 @@ p {
   font-size: 18px;
   line-height: 22px;
   font-weight: 600;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   padding: 12px 25px;
   text-align: center;
   display: inline-block;
@@ -1459,7 +1468,7 @@ p {
 }
 .sub-banner .banner-section .banner_content .box i:before {
   font-size: 14px;
-  font-family: "FontAwesome";
+  font-family: var(--main-font-FontAwesome);
   transition: all 0.3s ease;
   color: var(--e-global-color-white);
 }
@@ -1473,7 +1482,7 @@ p {
   font-size: 18px;
   line-height: 26px;
   font-weight: 600;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   display: inline-block;
 }
 .sub-banner .banner-section .banner_content .box .box_span {
@@ -1554,7 +1563,7 @@ p {
 .aboutpage-section .aboutpage_content ul li .circle:before {
   font-size: 14px;
   padding-top: 2px;
-  font-family: "FontAwesome";
+  font-family: var(--main-font-FontAwesome);
   transition: all 0.3s ease;
   color: var(--e-global-color-white);
 }
@@ -1562,7 +1571,7 @@ p {
   font-size: 18px;
   line-height: 22px;
   font-weight: 700;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   padding: 4px 2px 4px 42px;
   text-align: center;
   display: inline-block;
@@ -1598,7 +1607,7 @@ p {
 .aboutpage-section .aboutpage_content .circle:before {
   font-size: 18px;
   padding-top: 2px;
-  font-family: "FontAwesome";
+  font-family: var(--main-font-FontAwesome);
   transition: all 0.3s ease;
   color: var(--e-global-color-dark-blue);
 }
@@ -1740,7 +1749,7 @@ p {
   width: 48px;
   height: 48px;
   line-height: 48px;
-  font-family: "FontAwesome";
+  font-family: var(--main-font-FontAwesome);
   display: inline-block;
   vertical-align: middle;
   background-image: linear-gradient(
@@ -1927,7 +1936,7 @@ p {
   font-size: 16px;
   line-height: 22px;
   font-weight: 500;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   color: var(--e-global-color-secondary);
   text-transform: uppercase;
 }
@@ -2037,7 +2046,7 @@ p {
   color: var(--e-global-color-text);
 }
 .contact-section .need_content input {
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -2053,7 +2062,7 @@ p {
   outline: none;
 }
 .contact-section .need_content textarea {
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -2074,7 +2083,7 @@ p {
   font-size: 18px;
   line-height: 22px;
   font-weight: 600;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--main-font);
   padding: 4px 4px 4px 36px;
   text-align: center;
   display: inline-block;
@@ -2111,7 +2120,7 @@ p {
 .contact-section .need_content .circle:before {
   font-size: 18px;
   padding-top: 2px;
-  font-family: "FontAwesome";
+  font-family: var(--main-font-FontAwesome);
   transition: all 0.3s ease;
   color: var(--e-global-color-dark-blue);
 }

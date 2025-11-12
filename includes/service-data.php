@@ -68,8 +68,8 @@ $services = [
             ]
         ]
     ],
-    'iot-systems' => [
-        'id' => 'iot-systems',
+    'IoT-systems' => [
+        'id' => 'IoT-systems',
         'title' => 'IoT Systems',
         'icon' => './assets/images/service-learningicon.png',
         'hero_image' => './assets/images/service-image.png',

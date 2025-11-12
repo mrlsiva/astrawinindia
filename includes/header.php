@@ -16,13 +16,16 @@
                             <a href="index.php" title="Pages">Home</a>
                         </li>
                         <li class="nav-item <?= ($current_page == 'about.php') ? 'active' : '' ?>">
-                            <a href="about.php" title="About Us">About Us</a>
+                            <a href="about.php" title="About Us">About</a>
                         </li>
                         <li class="nav-item <?= ($current_page == 'services.php') ? 'active' : '' ?>">
-                            <a href="services.php" title="Our Services">Our Services</a>
+                            <a href="services.php" title="Our Services">Services</a>
                         </li>
                         <li class="nav-item <?= ($current_page == 'projects.php') ? 'active' : '' ?>">
-                            <a href="projects.php" title="Our Projects">Our Projects</a>
+                            <a href="projects.php" title="Our Projects">Projects</a>
+                        </li>
+                        <li class="nav-item <?= ($current_page == 'faq.php') ? 'active' : '' ?>">
+                            <a href="faq.php" title="FAQ">FAQ</a>
                         </li>
                         <li class="nav-item <?= ($current_page == 'contact-us.php') ? 'active' : '' ?>">
                             <a href="contact-us.php" title="Contact Us">Contact Us</a>
