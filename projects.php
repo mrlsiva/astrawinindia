@@ -73,9 +73,9 @@
 <!-- Projects Grid Section -->
 <section class="projects-grid-section">
     <div class="container">
-        <!-- Hardware & Networking Solutions -->
-        <div class="projects-category" data-aos="fade-up">
-            <h2 class="category-title">Hardware & Networking Solutions</h2>
+        <!-- Healthcare Projects -->
+        <div class="projects-category" data-aos="fade-up" data-category="healthcare">
+            <h2 class="category-title">Healthcare Projects</h2>
             
             <div class="row">
                 <!-- SRM Institute of Medical Sciences -->
@@ -118,6 +118,89 @@
                     </div>
                 </div>
 
+                <!-- ARC Fertility Centre -->
+                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="healthcare">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <img src="./assets/images/service-reboticon.png" alt="Firewall" class="img-fluid">
+                        </div>
+                        <h4>ARC Fertility Centre</h4>
+                        <p class="project-scope">Firewall, Wi-Fi, Server, Storage, Endpoints, Grandstream devices</p>
+                        <p class="outcome-label">Outcome:</p>
+                        <p class="outcome-text">Fully integrated IT environment with secure connectivity and reliable communication</p>
+                        <div class="project-details">
+                            <ul>
+                                <li>Enterprise firewall and secure Wi-Fi deployment</li>
+                                <li>Server and storage installation for data management</li>
+                                <li>Endpoint management and Grandstream communication integration</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Melmaruvathur Aadhi Parasakthi Institute -->
+                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="healthcare">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <img src="./assets/images/service-scienceicon.png" alt="Server" class="img-fluid">
+                        </div>
+                        <h4>Melmaruvathur Aadhi Parasakthi Institute of Medical Sciences & Research</h4>
+                        <p class="project-scope">Server deployment</p>
+                        <p class="outcome-label">Outcome:</p>
+                        <p class="outcome-text">Enhanced computing capacity and reliable data management</p>
+                        <div class="project-details">
+                            <ul>
+                                <li>Dedicated servers installed for hospital data and operations management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MM Pharma -->
+                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="healthcare">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <img src="./assets/images/service-learningicon.png" alt="Network" class="img-fluid">
+                        </div>
+                        <h4>MM Pharma</h4>
+                        <p class="project-scope">Networking and Wi-Fi deployment</p>
+                        <p class="outcome-label">Outcome:</p>
+                        <p class="outcome-text">Reliable and secure network enabling smooth pharmaceutical operations</p>
+                        <div class="project-details">
+                            <ul>
+                                <li>Designed and implemented network infrastructure across office and operational areas</li>
+                                <li>Deployed high-performance Wi-Fi for staff and operational connectivity</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AP Hospital, Salem -->
+                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="healthcare">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <img src="./assets/images/service-reboticon.png" alt="Firewall" class="img-fluid">
+                        </div>
+                        <h4>AP Hospital, Salem</h4>
+                        <p class="project-scope">Firewall deployment</p>
+                        <p class="outcome-label">Outcome:</p>
+                        <p class="outcome-text">Enhanced network security, regulatory compliance, and safe data access</p>
+                        <div class="project-details">
+                            <ul>
+                                <li>Configured firewall systems for secure hospital network operations</li>
+                                <li>Ensured protection of sensitive patient data and internal systems</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education Projects -->
+        <div class="projects-category" data-aos="fade-up" data-category="education">
+            <h2 class="category-title">Education Projects</h2>
+            
+            <div class="row">
                 <!-- SRM Group of Colleges -->
                 <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="education">
                     <div class="project-card">
@@ -158,6 +241,51 @@
                     </div>
                 </div>
 
+                <!-- DAV -->
+                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="education">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <img src="./assets/images/service-analysicon.png" alt="CCTV" class="img-fluid">
+                        </div>
+                        <h4>DAV</h4>
+                        <p class="project-scope">CCTV deployment</p>
+                        <p class="outcome-label">Outcome:</p>
+                        <p class="outcome-text">Improved campus security and real-time monitoring capabilities</p>
+                        <div class="project-details">
+                            <ul>
+                                <li>Installed CCTV surveillance systems across the campus</li>
+                                <li>Monitored critical entry points, classrooms, and administrative areas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SRM Valliammai Engineering College & SRM Madurai College -->
+                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="education">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <img src="./assets/images/service-learningicon.png" alt="Network" class="img-fluid">
+                        </div>
+                        <h4>SRM Valliammai Engineering College & SRM Madurai College for Engineering and Technology</h4>
+                        <p class="project-scope">Networking and Firewall</p>
+                        <p class="outcome-label">Outcome:</p>
+                        <p class="outcome-text">Fully connected, secure, and efficient educational environment</p>
+                        <div class="project-details">
+                            <ul>
+                                <li>Deployed campus-wide networking solutions for classrooms, laboratories, and administrative areas</li>
+                                <li>Configured firewall systems for secure internet access and internal network operations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Manufacturing Projects -->
+        <div class="projects-category" data-aos="fade-up" data-category="manufacturing">
+            <h2 class="category-title">Manufacturing Projects</h2>
+            
+            <div class="row">
                 <!-- Rice Mills -->
                 <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="manufacturing">
                     <div class="project-card">
@@ -173,26 +301,6 @@
                                 <li>Industrial-grade Wi-Fi across production areas</li>
                                 <li>Access Points for complete coverage in warehouses and administrative areas</li>
                                 <li>CCTV surveillance for production monitoring and safety compliance</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ARC -->
-                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="enterprise">
-                    <div class="project-card">
-                        <div class="project-icon">
-                            <img src="./assets/images/service-reboticon.png" alt="Firewall" class="img-fluid">
-                        </div>
-                        <h4>ARC</h4>
-                        <p class="project-scope">Firewall, Wi-Fi, Server, Storage, Endpoints, Grandstream devices</p>
-                        <p class="outcome-label">Outcome:</p>
-                        <p class="outcome-text">Fully integrated IT environment with secure connectivity and reliable communication</p>
-                        <div class="project-details">
-                            <ul>
-                                <li>Enterprise firewall and secure Wi-Fi deployment</li>
-                                <li>Server and storage installation for data management</li>
-                                <li>Endpoint management and Grandstream communication integration</li>
                             </ul>
                         </div>
                     </div>
@@ -218,6 +326,100 @@
                 </div>
 
                 <!-- Mechatronics & Mechair -->
+                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="manufacturing">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <img src="./assets/images/service-metalicon.png" alt="Network Security" class="img-fluid">
+                        </div>
+                        <h4>Mechatronics & Mechair</h4>
+                        <p class="project-scope">Networking, Firewall, Access Points, Endpoints</p>
+                        <p class="outcome-label">Outcome:</p>
+                        <p class="outcome-text">Secure, connected, and high-performance IT environment</p>
+                        <div class="project-details">
+                            <ul>
+                                <li>Network infrastructure configuration for office and production areas</li>
+                                <li>Firewall security systems deployment</li>
+                                <li>Wi-Fi AP installation for full coverage</li>
+                                <li>Endpoint device management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Retail Projects -->
+        <div class="projects-category" data-aos="fade-up" data-category="retail">
+            <h2 class="category-title">Retail Projects</h2>
+            
+            <div class="row">
+                <!-- Royal Enfield -->
+                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="retail">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <img src="./assets/images/counter-image1.png" alt="CCTV" class="img-fluid">
+                        </div>
+                        <h4>Royal Enfield Branches</h4>
+                        <p class="project-scope">Attendance system, CCTV, and networking</p>
+                        <p class="outcome-label">Outcome:</p>
+                        <p class="outcome-text">Streamlined workforce management, improved security, and connected operations</p>
+                        <div class="project-details">
+                            <ul>
+                                <li>Automated attendance system for workforce management</li>
+                                <li>CCTV surveillance in showroom and workshop areas</li>
+                                <li>Networking infrastructure integrating office, sales, and operational systems</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sweet Kaaram Coffee -->
+                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="retail">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <img src="./assets/images/service-reboticon.png" alt="WiFi" class="img-fluid">
+                        </div>
+                        <h4>Sweet Kaaram Coffee</h4>
+                        <p class="project-scope">Networking, Wi-Fi, and Firewall</p>
+                        <p class="outcome-label">Outcome:</p>
+                        <p class="outcome-text">Secure and reliable network environment supporting business growth</p>
+                        <div class="project-details">
+                            <ul>
+                                <li>Secure Wi-Fi for staff and guest areas</li>
+                                <li>Networking systems for smooth business operations</li>
+                                <li>Firewall deployment for data security and secure internet access</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Enterprise Projects -->
+        <div class="projects-category" data-aos="fade-up" data-category="enterprise">
+            <h2 class="category-title">Enterprise Projects</h2>
+            
+            <div class="row">
+                <!-- ARS -->
+                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="enterprise">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <img src="./assets/images/service-reboticon.png" alt="Firewall" class="img-fluid">
+                        </div>
+                        <h4>ARS</h4>
+                        <p class="project-scope">Firewall deployment</p>
+                        <p class="outcome-label">Outcome:</p>
+                        <p class="outcome-text">Strengthened data security and reliable network protection for enterprise operations</p>
+                        <div class="project-details">
+                            <ul>
+                                <li>Installed enterprise-grade firewall systems</li>
+                                <li>Configured security policies for threat prevention and network integrity</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="manufacturing">
                     <div class="project-card">
                         <div class="project-icon">
@@ -376,58 +578,16 @@
             <div class="row">
                 <!-- More projects would continue here... -->
                 <!-- I'll add a few more key projects -->
-                
-                <!-- Sweet Kaaram Coffee -->
-                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="retail">
-                    <div class="project-card">
-                        <div class="project-icon">
-                            <img src="./assets/images/service-reboticon.png" alt="WiFi" class="img-fluid">
-                        </div>
-                        <h4>Sweet Kaaram Coffee</h4>
-                        <p class="project-scope">Networking, Wi-Fi, and Firewall</p>
-                        <p class="outcome-label">Outcome:</p>
-                        <p class="outcome-text">Secure and reliable network environment supporting business growth</p>
-                        <div class="project-details">
-                            <ul>
-                                <li>Secure Wi-Fi for staff and guest areas</li>
-                                <li>Networking systems for smooth business operations</li>
-                                <li>Firewall deployment for data security and secure internet access</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ARC -->
-                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="manufacturing">
-                    <div class="project-card">
-                        <div class="project-icon">
-                            <img src="./assets/images/service-scienceicon.png" alt="Enterprise" class="img-fluid">
-                        </div>
-                        <h4>ARC</h4>
-                        <p class="project-scope">Firewall, Wi-Fi, Server, Storage, Endpoints, Grandstream devices</p>
-                        <p class="outcome-label">Outcome:</p>
-                        <p class="outcome-text">Fully integrated IT environment with secure connectivity and reliable communication</p>
-                        <div class="project-details">
-                            <ul>
-                                <li>Enterprise firewall and secure Wi-Fi deployment</li>
-                                <li>Server and storage installation for data management</li>
-                                <li>Endpoint management and Grandstream communication integration</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-              
             </div>
         </div>
 
-        <!-- Manufacturing & Industrial Excellence Projects -->
-        <div class="projects-category" data-aos="fade-up">
-            <h2 class="category-title">Manufacturing & Industrial Excellence Projects</h2>
+        <!-- Software & Industrial Automation Solutions -->
+        <div class="projects-category" data-aos="fade-up" data-category="software">
+            <h2 class="category-title">Software & Industrial Automation Solutions</h2>
             
             <div class="row">
                 <!-- Nissan QA NAVI -->
-                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="manufacturing">
+                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="software">
                     <div class="project-card featured">
                         <div class="project-icon">
                             <img src="./assets/images/service-metalicon.png" alt="QA NAVI" class="img-fluid">
@@ -447,7 +607,7 @@
                 </div>
 
                 <!-- Piolax QPulse -->
-                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="manufacturing">
+                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="software">
                     <div class="project-card featured">
                         <div class="project-icon">
                             <img src="./assets/images/service-analysicon.png" alt="QPulse" class="img-fluid">
@@ -467,7 +627,7 @@
                 </div>
 
                 <!-- Yamaha Motors -->
-                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="manufacturing">
+                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="software">
                     <div class="project-card featured">
                         <div class="project-icon">
                             <img src="./assets/images/service-learningicon.png" alt="Monitoring" class="img-fluid">
