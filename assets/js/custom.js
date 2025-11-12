@@ -225,6 +225,26 @@ $(document).ready(function () {
             }, 800);
         }
     });
+
+    // Back to Top Button functionality
+    const backToTopBtn = $('#back-to-top');
+
+    // Show/hide button based on scroll position
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+            backToTopBtn.addClass('show');
+        } else {
+            backToTopBtn.removeClass('show');
+        }
+    });
+
+    // Smooth scroll to top when button is clicked
+    backToTopBtn.click(function (e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: 0
+        }, 600);
+    });
 });
 
 // AOS initialization for projects page animations
