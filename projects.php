@@ -418,8 +418,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+    
+ 
                 <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="manufacturing">
                     <div class="project-card">
                         <div class="project-icon">
