@@ -47,22 +47,9 @@
         <div class="row">
             <div class="col-12">
                 <div class="filter-header" data-aos="fade-up">
-                    <div class="filter-left">
-                        <h4>Filter</h4>
-                        <div class="filter-buttons">
-                            <button class="filter-btn active" data-category="all">All</button>
-                            <button class="filter-btn" data-category="healthcare">Healthcare</button>
-                            <button class="filter-btn" data-category="manufacturing">Manufacturing</button>
-                            <button class="filter-btn" data-category="education">Education</button>
-                            <button class="filter-btn" data-category="enterprise">Enterprise</button>
-                            <button class="filter-btn" data-category="retail">Retail</button>
-                        </div>
-                    </div>
-                    <div class="filter-right">
-                        <div class="search-box">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                            <input type="text" placeholder="Search projects..." id="projectSearch">
-                        </div>
+                    <div class="search-box-fullwidth">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search projects..." id="projectSearch">
                     </div>
                 </div>
             </div>
@@ -73,8 +60,74 @@
 <!-- Projects Grid Section -->
 <section class="projects-grid-section">
     <div class="container">
+        <!-- Software & Industrial Automation Solutions -->
+        <div class="projects-category" data-aos="fade-up">
+            <h2 class="category-title">Software & Industrial Automation Solutions</h2>
+            
+            <div class="row">
+                <!-- Nissan QA NAVI -->
+                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="software">
+                    <div class="project-card featured">
+                        <div class="project-icon">
+                            <img src="./assets/images/service-metalicon.png" alt="QA NAVI" class="img-fluid">
+                        </div>
+                        <h4>Nissan QA NAVI</h4>
+                        <p class="project-scope">Real-time quality inspection and production monitoring</p>
+                        <p class="outcome-label">Outcome:</p>
+                        <p class="outcome-text">Improved inspection accuracy, minimized production defects, and enhanced overall product quality</p>
+                        <div class="project-details">
+                            <ul>
+                                <li>Developed Quality Analysis & Navigation Interface (QA-NAVI) integrating real-time sensors and high-resolution vision cameras</li>
+                                <li>Automated inspection of production lines with immediate feedback on defects</li>
+                                <li>Integrated dashboards for operators and managers to track quality metrics</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Piolax QPulse -->
+                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="software">
+                    <div class="project-card featured">
+                        <div class="project-icon">
+                            <img src="./assets/images/service-analysicon.png" alt="QPulse" class="img-fluid">
+                        </div>
+                        <h4>Piolax QPulse Solution</h4>
+                        <p class="project-scope">AI-driven quality control transformation</p>
+                        <p class="outcome-label">Outcome:</p>
+                        <p class="outcome-text">Increased production efficiency, reduced errors, and improved product consistency</p>
+                        <div class="project-details">
+                            <ul>
+                                <li>Digitized manual inspection processes into an automated AI-powered quality assurance platform</li>
+                                <li>Real-time defect detection, traceability, and reporting</li>
+                                <li>Optimized production schedules to minimize downtime and maximize throughput</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Yamaha Motors -->
+                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="software">
+                    <div class="project-card featured">
+                        <div class="project-icon">
+                            <img src="./assets/images/service-learningicon.png" alt="Monitoring" class="img-fluid">
+                        </div>
+                        <h4>Yamaha Motors</h4>
+                        <p class="project-scope">Real-time monitoring of welding operations</p>
+                        <p class="outcome-label">Outcome:</p>
+                        <p class="outcome-text">Improved welding process reliability, reduced downtime, and optimized maintenance schedules</p>
+                        <div class="project-details">
+                            <ul>
+                                <li>Implemented monitoring system for welding processes, tracking performance and identifying inefficiencies</li>
+                                <li>Provided analytics for preventive maintenance scheduling and workflow optimization</li>
+                                <li>Enabled management to visualize operational trends and anomalies in real time</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Healthcare Projects -->
-        <div class="projects-category" data-aos="fade-up" data-category="healthcare">
+        <div class="projects-category" data-aos="fade-up">
             <h2 class="category-title">Healthcare Projects</h2>
             
             <div class="row">
@@ -197,7 +250,7 @@
         </div>
 
         <!-- Education Projects -->
-        <div class="projects-category" data-aos="fade-up" data-category="education">
+        <div class="projects-category" data-aos="fade-up">
             <h2 class="category-title">Education Projects</h2>
             
             <div class="row">
@@ -242,7 +295,7 @@
                 </div>
 
                 <!-- DAV -->
-                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="education">
+                <!-- <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="education">
                     <div class="project-card">
                         <div class="project-icon">
                             <img src="./assets/images/service-analysicon.png" alt="CCTV" class="img-fluid">
@@ -258,7 +311,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- SRM Valliammai Engineering College & SRM Madurai College -->
                 <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="education">
@@ -282,7 +335,7 @@
         </div>
 
         <!-- Manufacturing Projects -->
-        <div class="projects-category" data-aos="fade-up" data-category="manufacturing">
+        <div class="projects-category" data-aos="fade-up">
             <h2 class="category-title">Manufacturing Projects</h2>
             
             <div class="row">
@@ -349,7 +402,7 @@
         </div>
 
         <!-- Retail Projects -->
-        <div class="projects-category" data-aos="fade-up" data-category="retail">
+        <div class="projects-category" data-aos="fade-up">
             <h2 class="category-title">Retail Projects</h2>
             
             <div class="row">
@@ -359,7 +412,7 @@
                         <div class="project-icon">
                             <img src="./assets/images/counter-image1.png" alt="CCTV" class="img-fluid">
                         </div>
-                        <h4>Royal Enfield Branches</h4>
+                        <h4>Shri Balaji Motors</h4>
                         <p class="project-scope">Attendance system, CCTV, and networking</p>
                         <p class="outcome-label">Outcome:</p>
                         <p class="outcome-text">Streamlined workforce management, improved security, and connected operations</p>
@@ -396,7 +449,7 @@
         </div>
 
         <!-- Enterprise Projects -->
-        <div class="projects-category" data-aos="fade-up" data-category="enterprise">
+        <div class="projects-category" data-aos="fade-up">
             <h2 class="category-title">Enterprise Projects</h2>
             
             <div class="row">
@@ -483,7 +536,7 @@
                         <div class="project-icon">
                             <img src="./assets/images/service-analysicon.png" alt="CCTV" class="img-fluid">
                         </div>
-                        <h4>DAV</h4>
+                        <h4>DAV Group of schools</h4>
                         <p class="project-scope">CCTV deployment</p>
                         <p class="outcome-label">Outcome:</p>
                         <p class="outcome-text">Improved campus security and real-time monitoring capabilities</p>
@@ -559,7 +612,7 @@
                         <div class="project-icon">
                             <img src="./assets/images/counter-image1.png" alt="CCTV" class="img-fluid">
                         </div>
-                        <h4>Royal Enfield Branches</h4>
+                        <h4>Shri Balaji Motors</h4>
                         <p class="project-scope">Attendance system, CCTV, and networking</p>
                         <p class="outcome-label">Outcome:</p>
                         <p class="outcome-text">Streamlined workforce management, improved security, and connected operations</p>
@@ -581,72 +634,7 @@
             </div>
         </div>
 
-        <!-- Software & Industrial Automation Solutions -->
-        <div class="projects-category" data-aos="fade-up" data-category="software">
-            <h2 class="category-title">Software & Industrial Automation Solutions</h2>
-            
-            <div class="row">
-                <!-- Nissan QA NAVI -->
-                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="software">
-                    <div class="project-card featured">
-                        <div class="project-icon">
-                            <img src="./assets/images/service-metalicon.png" alt="QA NAVI" class="img-fluid">
-                        </div>
-                        <h4>Nissan QA NAVI</h4>
-                        <p class="project-scope">Real-time quality inspection and production monitoring</p>
-                        <p class="outcome-label">Outcome:</p>
-                        <p class="outcome-text">Improved inspection accuracy, minimized production defects, and enhanced overall product quality</p>
-                        <div class="project-details">
-                            <ul>
-                                <li>Developed Quality Analysis & Navigation Interface (QA-NAVI) integrating real-time sensors and high-resolution vision cameras</li>
-                                <li>Automated inspection of production lines with immediate feedback on defects</li>
-                                <li>Integrated dashboards for operators and managers to track quality metrics</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Piolax QPulse -->
-                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="software">
-                    <div class="project-card featured">
-                        <div class="project-icon">
-                            <img src="./assets/images/service-analysicon.png" alt="QPulse" class="img-fluid">
-                        </div>
-                        <h4>Piolax QPulse Solution</h4>
-                        <p class="project-scope">AI-driven quality control transformation</p>
-                        <p class="outcome-label">Outcome:</p>
-                        <p class="outcome-text">Increased production efficiency, reduced errors, and improved product consistency</p>
-                        <div class="project-details">
-                            <ul>
-                                <li>Digitized manual inspection processes into an automated AI-powered quality assurance platform</li>
-                                <li>Real-time defect detection, traceability, and reporting</li>
-                                <li>Optimized production schedules to minimize downtime and maximize throughput</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Yamaha Motors -->
-                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="software">
-                    <div class="project-card featured">
-                        <div class="project-icon">
-                            <img src="./assets/images/service-learningicon.png" alt="Monitoring" class="img-fluid">
-                        </div>
-                        <h4>Yamaha Motors</h4>
-                        <p class="project-scope">Real-time monitoring of welding operations</p>
-                        <p class="outcome-label">Outcome:</p>
-                        <p class="outcome-text">Improved welding process reliability, reduced downtime, and optimized maintenance schedules</p>
-                        <div class="project-details">
-                            <ul>
-                                <li>Implemented monitoring system for welding processes, tracking performance and identifying inefficiencies</li>
-                                <li>Provided analytics for preventive maintenance scheduling and workflow optimization</li>
-                                <li>Enabled management to visualize operational trends and anomalies in real time</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </div>
 </section>
 
@@ -666,6 +654,76 @@
 </section>
 
 <?php include 'includes/footer.html'; ?>
+
+<script>
+// Search functionality with smooth animations
+jQuery(document).ready(function($) {
+    console.log('Projects page search initialized');
+    
+    // Show all projects initially
+    $('.project-item').removeClass('hidden').css('display', '');
+    $('.projects-category').show();
+    
+    // Search functionality
+    $('#projectSearch').on('input', function() {
+        const searchTerm = $(this).val().toLowerCase().trim();
+        console.log('Searching for:', searchTerm);
+        
+        if (searchTerm === '') {
+            // Show all projects if search is empty
+            $('.project-item').removeClass('hidden');
+            $('.projects-category').show();
+            $('.no-results-message').remove();
+        } else {
+            // Filter projects based on search
+            let visibleCount = 0;
+            
+            $('.project-item').each(function() {
+                const $item = $(this);
+                const projectTitle = $item.find('h4').text().toLowerCase();
+                const projectScope = $item.find('.project-scope').text().toLowerCase();
+                const projectDetails = $item.find('.project-details').text().toLowerCase();
+                
+                if (projectTitle.includes(searchTerm) || 
+                    projectScope.includes(searchTerm) || 
+                    projectDetails.includes(searchTerm)) {
+                    $item.removeClass('hidden');
+                    visibleCount++;
+                } else {
+                    $item.addClass('hidden');
+                }
+            });
+            
+            // Hide empty category sections after animation completes
+            setTimeout(function() {
+                $('.projects-category').each(function() {
+                    const $category = $(this);
+                    const visibleProjects = $category.find('.project-item:not(.hidden)').length;
+                    if (visibleProjects > 0) {
+                        $category.show();
+                    } else {
+                        $category.hide();
+                    }
+                });
+            }, 100);
+            
+            // Show no results message if needed
+            if (visibleCount === 0) {
+                if (!$('.no-results-message').length) {
+                    $('.projects-grid-section .container').append(
+                        '<div class="no-results-message text-center" style="padding: 60px 0; animation: fadeIn 0.3s ease;">' +
+                        '<h4 style="color: #666;">No projects found</h4>' +
+                        '<p style="color: #999;">Try different search terms</p>' +
+                        '</div>'
+                    );
+                }
+            } else {
+                $('.no-results-message').remove();
+            }
+        }
+    });
+});
+</script>
 
 </body>
 </html>

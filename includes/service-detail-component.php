@@ -116,10 +116,11 @@ function renderServiceDetail($service) {
                             $title_lower = str_replace('cybersecurity services', 'Cybersecurity Services', $title_lower);
                             $title_lower = str_replace('infrastructure management', 'Infrastructure Management', $title_lower);
                             $title_lower = str_replace('next-generation workspace technologies', 'Next-Generation Workspace Technologies', $title_lower);
+                            $title_lower = str_replace('software solutions', 'Software Solutions', $title_lower);
                             
                             echo $title_lower; 
                         ?> can drive your digital transformation.</p>
-                        <a href="./contact-us.php" class="btn-cta">Get Started Today</a>
+                        <a href="./index.php#have-questions" class="btn-cta">Get Started Today</a>
                     </div>
                 </div>
             </div>

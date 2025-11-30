@@ -109,7 +109,7 @@
     </section>
 
     <!--FAQ / Need section-->
-    <section class="faq-section">
+    <section class="faq-section" id="have-questions">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-12">

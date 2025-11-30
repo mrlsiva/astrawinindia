@@ -46,9 +46,9 @@ Project:  Artelligence
   --main-font-FontAwesome: "FontAwesome";
 }
 
-body {
+/* body {
   font-family: var(--main-font-Ubuntu);
-}
+} */
 
 .h1,
 h1 {
@@ -83,7 +83,7 @@ h5 {
   line-height: 28px;
   font-weight: 400;
   text-transform: uppercase;
-  color: var(--e-global-color-secondary);
+  color: #ff5e14;
 }
 .h6,
 h6 {
@@ -133,7 +133,7 @@ p {
 .navbar-nav .nav-item a {
   font-size: 18px;
   line-height: 18px;
-  font-weight: 400;
+  font-weight: 600;
   font-family: var(--main-font);
   color: var(--e-global-color-white) !important;
   margin-top: -6px;
@@ -550,7 +550,7 @@ p {
   line-height: 22px;
   font-weight: 500;
   font-family: var(--main-font);
-  color: var(--e-global-color-secondary);
+  color: #ff5e14;
   text-transform: uppercase;
 }
 .service-section .service_contentbox .box-top {
@@ -2981,6 +2981,45 @@ p {
   box-shadow: 0 0 0 3px rgba(66, 133, 244, 0.1);
 }
 
+/* Full-width search box */
+.search-box-fullwidth {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.search-box-fullwidth i {
+  position: absolute;
+  left: 25px;
+  color: #999;
+  font-size: 18px;
+  z-index: 2;
+}
+
+.search-box-fullwidth input {
+  background: #f8f9fa;
+  border: 2px solid #e9ecef;
+  border-radius: 50px;
+  padding: 18px 30px 18px 60px;
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.search-box-fullwidth input:focus {
+  border-color: #4285f4;
+  box-shadow: 0 0 0 4px rgba(66, 133, 244, 0.1);
+  background: #fff;
+}
+
+.search-box-fullwidth input::placeholder {
+  color: #999;
+}
+
 /* Projects Grid */
 .projects-grid-section {
   background: #f8f9fa;
@@ -2999,6 +3038,18 @@ p {
   margin-bottom: 50px;
   position: relative;
   padding-bottom: 20px;
+  animation: fadeInDown 0.6s ease-out;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .category-title::after {
@@ -3011,11 +3062,32 @@ p {
   height: 4px;
   background: linear-gradient(45deg, #4285f4, #34a853);
   border-radius: 2px;
+  animation: expandWidth 0.8s ease-out 0.3s backwards;
+}
+
+@keyframes expandWidth {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80px;
+  }
 }
 
 .project-item {
   margin-bottom: 30px;
-  transition: all 0.3s ease;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  opacity: 1;
+}
+
+.project-item.hidden {
+  display: none;
+  opacity: 0;
+  transform: scale(0.95);
+  height: 0;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .project-card {
@@ -3075,7 +3147,10 @@ p {
   margin-bottom: 15px;
   line-height: 1.3;
 }
-
+a.mb-0.text-white.ft-16 {
+  font-size: 14px;
+  font-family: "Montserrat";
+}
 .project-scope {
   color: var(--e-global-color-secondary);
   font-size: 16px;

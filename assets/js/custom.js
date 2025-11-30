@@ -125,7 +125,8 @@ $(document).ready(function () {
     // Initialize sliders when document is ready
     initSliders();
 
-    // Projects page filter functionality
+    // Projects page filter functionality - DISABLED (using inline script in projects.php instead)
+    /*
     if ($('.projects-filter-section').length) {
         // Sticky filter behavior
         let filterSection = $('.projects-filter-section');
@@ -214,6 +215,7 @@ $(document).ready(function () {
             }, 100);
         }
     }
+    */
 
     // Smooth scroll for project CTA button
     $('.btn-explore, .btn-talk').on('click', function (e) {
