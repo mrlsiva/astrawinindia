@@ -4,7 +4,8 @@
                         <p class="text-size-16">We’d love to hear from you! The team at Astrawin India Pvt. Ltd. is ready to help you with the right technology solutions to move your business forward.Share your details below, and we’ll connect with you shortly.</p>                        
                         <!-- Success/Error Message -->
                         <div id="form-message" style="display: none; padding: 15px; margin-bottom: 20px; border-radius: 5px;"></div>
-                                                <form id="contactpage" method="POST" action="./contact-form.php">
+                        
+                        <form id="contactpage" method="POST">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="form-group mb-0">
@@ -44,6 +45,7 @@
 jQuery(document).ready(function($) {
     $('#contactpage').on('submit', function(e) {
         e.preventDefault();
+        e.stopPropagation();
         
         var formData = $(this).serialize();
         var submitBtn = $(this).find('button[type="submit"]');
@@ -110,6 +112,8 @@ jQuery(document).ready(function($) {
                 submitBtn.prop('disabled', false).html(originalBtnText);
             }
         });
+        
+        return false;
     });
 });
 </script>
