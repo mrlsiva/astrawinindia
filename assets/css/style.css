@@ -83,7 +83,7 @@ h5 {
   line-height: 28px;
   font-weight: 400;
   text-transform: uppercase;
-  color: #ff5e14;
+  color: #0d3954;
 }
 .h6,
 h6 {
@@ -550,7 +550,7 @@ p {
   line-height: 22px;
   font-weight: 500;
   font-family: var(--main-font);
-  color: #ff5e14;
+  color: #0d3954;
   text-transform: uppercase;
 }
 .service-section .service_contentbox .box-top {
@@ -577,7 +577,7 @@ p {
 }
 .choose-section .choose_wrapper .choose-image {
   position: absolute;
-  top: -222px;
+  top: -281px;
   left: -230px;
 }
 .choose-section .choose_content {
