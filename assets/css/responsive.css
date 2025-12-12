@@ -2106,6 +2106,14 @@
     width: 80px;
   }
 }
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .navbar-collapse {
+    width: 100% !important;
+  }
+  .navbar-nav .nav-item a {
+    line-height: 48px !important;
+  }
+}
 @media screen and (min-width: 680px) and (max-width: 767px) {
   .col-sm-12.col-md-6.text-right {
     text-align: left !important;
@@ -2290,6 +2298,7 @@
   }
   .faq-section .faq_content h4 {
     font-size: 16px;
+    max-width: calc(100% - 36px);
   }
   .faq-section .accordion-card .btn-link:before {
     right: 0;
