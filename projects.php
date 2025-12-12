@@ -46,7 +46,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="filter-header" data-aos="fade-up">
+                <div class="filter-header">
                     <div class="search-box-fullwidth">
                         <i class="fa-solid fa-magnifying-glass"></i>
                         <input type="text" placeholder="Search projects..." id="projectSearch">
@@ -61,7 +61,7 @@
 <section class="projects-grid-section">
     <div class="container">
         <!-- Software & Industrial Automation Solutions -->
-        <div class="projects-category" data-aos="fade-up">
+        <div class="projects-category">
             <h2 class="category-title">Software & Industrial Automation Solutions</h2>
             
             <div class="row">
@@ -127,7 +127,7 @@
             </div>
         </div>
         <!-- Healthcare Projects -->
-        <div class="projects-category" data-aos="fade-up">
+        <div class="projects-category">
             <h2 class="category-title">Healthcare Projects</h2>
             
             <div class="row">
@@ -250,7 +250,7 @@
         </div>
 
         <!-- Education Projects -->
-        <div class="projects-category" data-aos="fade-up">
+        <div class="projects-category">
             <h2 class="category-title">Education Projects</h2>
             
             <div class="row">
@@ -335,7 +335,7 @@
         </div>
 
         <!-- Manufacturing Projects -->
-        <div class="projects-category" data-aos="fade-up">
+        <div class="projects-category">
             <h2 class="category-title">Manufacturing Projects</h2>
             
             <div class="row">
@@ -402,7 +402,7 @@
         </div>
 
         <!-- Retail Projects -->
-        <div class="projects-category" data-aos="fade-up">
+        <div class="projects-category">
             <h2 class="category-title">Retail Projects</h2>
             
             <div class="row">
@@ -449,7 +449,7 @@
         </div>
 
         <!-- Enterprise Projects -->
-        <div class="projects-category" data-aos="fade-up">
+        <div class="projects-category">
             <h2 class="category-title">Enterprise Projects</h2>
             
             <div class="row">
