@@ -22,7 +22,7 @@
                         <h1 class="text-white">Our services</h1>
                         <!-- <p class="text-white">Ruis autem vel eum iure reprehenderit aui in ea voluptate velit esse ruam nihil molestiae conseuatur.</p> -->
                         <div class="box">
-                            <span class="mb-0">Home</span><i class="first fa-regular fa-angle-right"></i><i class="second fa-regular fa-angle-right"></i><span class="mb-0">Our services</span><i class="first fa-regular fa-angle-right"></i><i class="second fa-regular fa-angle-right"></i><span class="mb-0 box_span">services</span>
+                            <span class="mb-0">Home</span><i class="first fa-regular fa-angle-right"></i><i class="second fa-regular fa-angle-right"></i><span class="mb-0 box_span">services</span>
                         </div> 
                     </div>
                 </div> 

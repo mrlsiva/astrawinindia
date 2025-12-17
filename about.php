@@ -88,26 +88,29 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div class="aboutpage_content active" id="mission-content" data-aos="fade-left">
-                    <img src="./assets/images/mission.webp" alt="" class="img-fluid mb-3">
-                    <h2>Our Mission:</h2>
-                    <p class="text-size-18">To empower businesses with reliable, intelligent, and secure technology solutions that drive measurable outcomes, improve efficiency, and inspire innovation across industries.</p>
+                    <!-- <img src="./assets/images/mission.webp" alt="" class="img-fluid mb-3"> -->
+                    <img src="./assets/images/mission.jfif" alt="" class="img-fluid mb-3">
+                    <!-- <h2>Our Mission:</h2>
+                    <p class="text-size-18">To empower businesses with reliable, intelligent, and secure technology solutions that drive measurable outcomes, improve efficiency, and inspire innovation across industries.</p> -->
                 </div>
                 <div class="aboutpage_content" id="vision-content" data-aos="fade-left">
-                    <img src="./assets/images/vision.png" alt="" class="img-fluid mb-3">
+                    <img src="./assets/images/vision.jfif" alt="" class="img-fluid mb-3">
+                    <!-- <img src="./assets/images/vision.png" alt="" class="img-fluid mb-3">
                     <h2>Our Vision:</h2>
-                    <p class="text-size-18">To be a trusted global technology partner — shaping a smarter, safer, and more connected digital future through continuous innovation and excellence.</p>
+                    <p class="text-size-18">To be a trusted global technology partner — shaping a smarter, safer, and more connected digital future through continuous innovation and excellence.</p> -->
                 </div>
                 <div class="aboutpage_content" id="core-values-content" data-aos="fade-left">
                    
-                <img src="./assets/images/core-values.png" alt="" class="img-fluid mb-3"> 
-                <h2>Our Core Values:</h2>
+                <img src="./assets/images/core.jfif" alt="" class="img-fluid mb-3"> 
+                <!-- <img src="./assets/images/core-values.png" alt="" class="img-fluid mb-3">  -->
+                <!-- <h2>Our Core Values:</h2>
                     <ul class="text-size-18">
                         <li> Integrity: Building trust through transparency and accountability.</li>
                         <li> Innovation: Driving progress with creative, intelligent solutions.</li>
                         <li>Customer Focus: Prioritizing long-term relationships and real results.</li>
                         <li>Excellence: Delivering quality that exceeds expectations.</li>
                         <li> Collaboration: Working together to turn ideas into impact.</li>
-                    </ul>
+                    </ul> -->
                 </div>
                 
             </div>

@@ -471,28 +471,6 @@
                         </div>
                     </div>
                 </div>
-    
- 
-                <div class="col-lg-4 col-md-6 col-sm-12 project-item" data-category="manufacturing">
-                    <div class="project-card">
-                        <div class="project-icon">
-                            <img src="./assets/images/service-metalicon.png" alt="Network Security" class="img-fluid">
-                        </div>
-                        <h4>Mechatronics & Mechair</h4>
-                        <p class="project-scope">Networking, Firewall, Access Points, Endpoints</p>
-                        <p class="outcome-label">Outcome:</p>
-                        <p class="outcome-text">Secure, connected, and high-performance IT environment</p>
-                        <div class="project-details">
-                            <ul>
-                                <li>Network infrastructure configuration for office and production areas</li>
-                                <li>Firewall security systems deployment</li>
-                                <li>Wi-Fi AP installation for full coverage</li>
-                                <li>Endpoint device management</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
             </div>
 
             <!-- Additional Projects Row -->
