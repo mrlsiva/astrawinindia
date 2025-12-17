@@ -6,7 +6,7 @@ $services = [
         'title' => 'Software Solutions',
         'icon' => './assets/images/service-reboticon.png',
         'hero_image' => './assets/images/aboutpage-image.png',
-        'short_description' => 'Astrawin develops intelligent, scalable, and industry-ready software platforms that drive digital transformation, automation, and data intelligence.Our solutions are tailored for enterprises, healthcare institutions, and educational organizations, helping them streamline operations, improve efficiency, and enhance visibility across their ecosystems.',
+        'short_description' => 'Astrawin develops intelligent, scalable, and industry-ready software platforms that drive digital transformation, automation, and data intelligence. Our solutions are tailored for enterprises, healthcare institutions, and educational organizations, helping them streamline operations, improve efficiency, and enhance visibility across their ecosystems.',
 
         'subsections' => [
             [

@@ -50,7 +50,7 @@
                 <div class="provide_content" data-aos="fade-right">
                     <h5>Services We Provide</h5>
                     <h2>Delivering Intelligent Solutions with Precision and Purpose</h2>
-                    <p class="text-size-18">At Astrawin India Pvt. Ltd., we empower enterprises with cutting-edge technology services designed to enhance efficiency, strengthen security, and drive digital growth.Our focus is on delivering exceptional quality and flawless execution, ensuring every solution adds real value to your business.</p><p class="text-size-18">Through innovation, expertise, and a commitment to excellence, we help organizations transform today’s challenges into tomorrow’s opportunities.</p>
+                    <p class="text-size-18">At Astrawin India Pvt. Ltd., we empower enterprises with cutting-edge technology services designed to enhance efficiency, strengthen security, and drive digital growth. Our focus is on delivering exceptional quality and flawless execution, ensuring every solution adds real value to your business.</p><p class="text-size-18">Through innovation, expertise, and a commitment to excellence, we help organizations transform today's challenges into tomorrow's opportunities.</p>
                     
                 </div>
             </div>

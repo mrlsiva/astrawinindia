@@ -55,7 +55,7 @@
                     <div class="service_content">
                         <h5 data-aos="fade-right" data-aos-duration="600">Services We Provide</h5>
                         <h2 data-aos="fade-right" data-aos-duration="800">Delivering Intelligent Solutions with Precision and Purpose</h2>
-                        <p class="text-size-18" data-aos="fade-right" data-aos-duration="1000">At Astrawin India Pvt. Ltd., we empower enterprises with cutting-edge technology services designed to enhance efficiency, strengthen security, and drive digital growth.Our focus is on delivering exceptional quality and flawless execution, ensuring every solution adds real value to your business.</p><p class="text-size-18" data-aos="fade-right" data-aos-duration="1000">Through innovation, expertise, and a commitment to excellence, we help organizations transform today’s challenges into tomorrow’s opportunities.</p>
+                        <p class="text-size-18" data-aos="fade-right" data-aos-duration="1000">At Astrawin India Pvt. Ltd., we empower enterprises with cutting-edge technology services designed to enhance efficiency, strengthen security, and drive digital growth. Our focus is on delivering exceptional quality and flawless execution, ensuring every solution adds real value to your business.</p><p class="text-size-18" data-aos="fade-right" data-aos-duration="1000">Through innovation, expertise, and a commitment to excellence, we help organizations transform today's challenges into tomorrow's opportunities.</p>
                         <a class="read_more text-decoration-none" data-aos="fade-right" data-aos-duration="800" href="./service.html">Read More<i
                                 class="circle fa-regular fa-angle-right"></i></a>
                     </div>
@@ -86,7 +86,7 @@
                     <div class="choose_content">
                         <h5 data-aos="fade-left" data-aos-duration="1000">Why Choose Us</h5>
                         <h2 data-aos="fade-left" data-aos-duration="1000" class="text-white">Shaping Smarter Businesses with Technology and Trust</h2>
-                        <p data-aos="fade-left" data-aos-duration="1000" class="text-white text-size-18">At Astrawin India Pvt. Ltd., we enable enterprises to embrace digital transformation through intelligent technologies and strategic innovation.Our approach combines deep technical expertise with a results-driven mindset — helping businesses operate smarter, safer, and more efficiently.</p>
+                        <p data-aos="fade-left" data-aos-duration="1000" class="text-white text-size-18">At Astrawin India Pvt. Ltd., we enable enterprises to embrace digital transformation through intelligent technologies and strategic innovation. Our approach combines deep technical expertise with a results-driven mindset — helping businesses operate smarter, safer, and more efficiently.</p>
                         <!-- <ul class="list-unstyled mb-0">
                             <li data-aos="fade-left" data-aos-duration="1000" class="text-white text text-size-18"><i
                                     class="circle fa-regular fa-angle-right"></i> Intelligent Solutions — Leveraging AI and automation to transform business performance.	</li>

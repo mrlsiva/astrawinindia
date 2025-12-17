@@ -16,7 +16,7 @@
                     <div class="about_content" >
                         <h5 data-aos="fade-right" data-aos-duration="600">About us</h5>
                         <h2 data-aos="fade-right" data-aos-duration="800">Empowering Businesses Through Technology & Trust</h2>
-                        <p class="text-size-18" data-aos="fade-right" data-aos-duration="1000">At Astrawin India Pvt. Ltd., we empower organizations to build secure, intelligent, and future-ready digital ecosystems.With expertise across Software Solutions, IoT Systems, Managed IT Services, Infrastructure, and Cybersecurity, we deliver innovation that drives performance and reliability.</p>
+                        <p class="text-size-18" data-aos="fade-right" data-aos-duration="1000">At Astrawin India Pvt. Ltd., we empower organizations to build secure, intelligent, and future-ready digital ecosystems. With expertise across Software Solutions, IoT Systems, Managed IT Services, Infrastructure, and Cybersecurity, we deliver innovation that drives performance and reliability.</p>
                         <div class="about-lowercontent" data-aos="fade-right" data-aos-duration="800">
                             <div class="image">
                                 <figure class="mb-0 icon">
@@ -25,7 +25,7 @@
                             </div>
                             <div class="content">
                                 <h4>100% Customer Satisfaction</h4>
-                                <p class="text-size-18">We’re driven by results and relationships.Every solution we deliver is tailored to meet your goals — ensuring seamless execution, measurable impact, and complete customer satisfaction. </p>
+                                <p class="text-size-18">We're driven by results and relationships. Every solution we deliver is tailored to meet your goals — ensuring seamless execution, measurable impact, and complete customer satisfaction. </p>
                             </div>
                             <div class="image">
                                 <figure class="mb-0 icon">
@@ -34,7 +34,7 @@
                             </div>
                             <div class="content">
                                 <h4>Quality Assurance Guarantee</h4>
-                                <p class="text-size-18 text">Quality is our promise.Astrawin’s solutions are tested, trusted, and built to perform — combining technology excellence with a commitment to long-term value.</p>
+                                <p class="text-size-18 text">Quality is our promise. Astrawin's solutions are tested, trusted, and built to perform — combining technology excellence with a commitment to long-term value.</p>
                             </div>
                         </div>
                         <a class="read_more text-decoration-none" data-aos="fade-right" data-aos-duration="800" href="./about.php">Read More<i

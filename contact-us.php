@@ -55,7 +55,7 @@
                         </div>
                         <div class="box-content">
                             <h4>Location:</h4>
-                            <p class="text-size-18"> #232,46th Street TVS Colony, Anna Nagar West Extn, Near Bharath Petroleum Chennai - 600101 Tamil Nadu.</p>
+                            <p class="text-size-18"> #232, 46th Street TVS Colony, Anna Nagar West Extn, Near Bharath Petroleum Chennai - 600101 Tamil Nadu.</p>
                         </div>
                     </div>
                     <div class="contact-box box-mb">
