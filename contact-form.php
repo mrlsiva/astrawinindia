@@ -7,9 +7,9 @@ $comments=$_POST['msg'];
 if(isset($name) && isset($phone) && isset($emailHelp))
 {
 	global $to_email,$vpb_message_body,$headers;
-	$to_email="pmrlsivas@gmail.com";
+	$to_email="info@astrawinindia.com";
 	
-	// Beautiful HTML Email Template
+	// HTML Email Template
 	$vpb_message_body = '
 	<!DOCTYPE html>
 	<html>
