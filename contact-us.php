@@ -330,10 +330,16 @@ jQuery(document).ready(function($) {
         e.stopPropagation();
         
         // Form validation
-        var name = $('#name').val().trim();
-        var email = $('#emailid').val().trim();
-        var phone = $('#phone').val().trim();
-        var message = $('#msg').val().trim();
+        var name = $('input[name="name"]').val();
+        var email = $('input[name="emailid"]').val();
+        var phone = $('input[name="phone"]').val();
+        var message = $('textarea[name="msg"]').val();
+        
+        // Trim values if they exist
+        name = name ? name.trim() : '';
+        email = email ? email.trim() : '';
+        phone = phone ? phone.trim() : '';
+        message = message ? message.trim() : '';
         
         // Check if all required fields are filled
         if (!name || !email || !phone || !message) {
