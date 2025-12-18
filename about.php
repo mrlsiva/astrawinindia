@@ -101,7 +101,7 @@
                 </div>
                 <div class="aboutpage_content" id="core-values-content" data-aos="fade-left">
                    
-                <img src="./assets/images/core.jfif" alt="" class="img-fluid mb-3"> 
+                <img src="./assets/images/core.jpg" alt="" class="img-fluid mb-3"> 
                 <!-- <img src="./assets/images/core-values.png" alt="" class="img-fluid mb-3">  -->
                 <!-- <h2>Our Core Values:</h2>
                     <ul class="text-size-18">
