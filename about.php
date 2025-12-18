@@ -153,7 +153,7 @@
         <!-- Clients Slider -->
         <div class="row mb-5">
             <div class="col-12">
-                <h4 class="text-center mb-4">Our Technology Allies</h4>
+                <h4 class="text-center mb-4">Leaders who trust us</h4>
                 <div class="slider-container">
                     <button class="slider-btn prev-btn clients-prev">
                         <i class="fa-solid fa-chevron-left"></i>
@@ -237,7 +237,7 @@
         <!-- Partners Slider -->
         <div class="row">
             <div class="col-12">
-                <h4 class="text-center mb-4">Leaders who trust us</h4>
+                <h4 class="text-center mb-4">Our Technology Allies</h4>
                 <div class="slider-container">
                     <button class="slider-btn prev-btn partners-prev">
                         <i class="fa-solid fa-chevron-left"></i>

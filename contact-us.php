@@ -107,7 +107,211 @@
 </div>
 <?php include 'includes/footer.html'; ?>
 
+<!-- Success Modal -->
+<div id="successModal" class="success-modal">
+    <div class="success-modal-content">
+        <div class="success-checkmark">
+            <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+                <path class="checkmark-check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+            </svg>
+        </div>
+        <h2 class="success-title">Thank You!</h2>
+        <p class="success-message">Your form has been submitted successfully. Our team will contact you shortly.</p>
+        <button class="success-btn" onclick="closeSuccessModal()">Close</button>
+    </div>
+</div>
+
+<!-- Error Modal -->
+<div id="errorModal" class="success-modal">
+    <div class="success-modal-content error-content">
+        <div class="error-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52" width="80" height="80">
+                <circle cx="26" cy="26" r="25" fill="#ff5e14"/>
+                <line x1="18" y1="18" x2="34" y2="34" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                <line x1="34" y1="18" x2="18" y2="34" stroke="white" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+        </div>
+        <h2 class="success-title">Oops!</h2>
+        <p class="success-message" id="errorMessage">Something went wrong. Please try again.</p>
+        <button class="success-btn" onclick="closeErrorModal()">Close</button>
+    </div>
+</div>
+
+<style>
+.success-modal {
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    animation: fadeIn 0.3s ease;
+}
+
+.success-modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 40px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    animation: slideDown 0.4s ease;
+    position: relative;
+}
+
+.error-content {
+    border-top: 5px solid #ff5e14;
+}
+
+.success-checkmark {
+    margin: 0 auto 20px;
+}
+
+.checkmark {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 3;
+    stroke: #4CAF50;
+    stroke-miterlimit: 10;
+    animation: fill 0.4s ease-in-out 0.4s forwards, scale 0.3s ease-in-out 0.9s both;
+}
+
+.checkmark-circle {
+    stroke-dasharray: 166;
+    stroke-dashoffset: 166;
+    stroke-width: 3;
+    stroke-miterlimit: 10;
+    stroke: #4CAF50;
+    fill: none;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark-check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    stroke: #4CAF50;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+.error-icon {
+    margin: 0 auto 20px;
+    animation: errorShake 0.5s ease;
+}
+
+.success-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+
+.success-message {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.success-btn {
+    background: linear-gradient(135deg, #ff5e14 0%, #ff8a3d 100%);
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.success-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(255, 94, 20, 0.4);
+}
+
+@keyframes stroke {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes scale {
+    0%, 100% {
+        transform: none;
+    }
+    50% {
+        transform: scale3d(1.1, 1.1, 1);
+    }
+}
+
+@keyframes fill {
+    100% {
+        box-shadow: inset 0 0 0 40px #4CAF50;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes errorShake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-5px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(5px);
+    }
+}
+</style>
+
 <script>
+function closeSuccessModal() {
+    document.getElementById('successModal').style.display = 'none';
+}
+
+function closeErrorModal() {
+    document.getElementById('errorModal').style.display = 'none';
+}
+
+// Close modal when clicking outside
+window.onclick = function(event) {
+    var successModal = document.getElementById('successModal');
+    var errorModal = document.getElementById('errorModal');
+    if (event.target == successModal) {
+        closeSuccessModal();
+    }
+    if (event.target == errorModal) {
+        closeErrorModal();
+    }
+}
+
 jQuery(document).ready(function($) {
     $('#contactpage').off('submit').on('submit', function(e) {
         e.preventDefault();
@@ -118,7 +322,7 @@ jQuery(document).ready(function($) {
         var originalBtnText = submitBtn.html();
         
         // Disable button and show loading
-        submitBtn.prop('disabled', true).html('Sending...');
+        submitBtn.prop('disabled', true).html('<i class="fas fa-spinner fa-spin"></i> Sending...');
         
         $.ajax({
             type: 'POST',
@@ -126,54 +330,29 @@ jQuery(document).ready(function($) {
             data: formData,
             dataType: 'json',
             success: function(response) {
-                var messageDiv = $('#form-message');
-                
                 if(response.status === 'Success') {
-                    messageDiv.removeClass('alert-danger').addClass('alert-success')
-                        .css({
-                            'background-color': '#d4edda',
-                            'color': '#155724',
-                            'border': '1px solid #c3e6cb'
-                        })
-                        .html('<strong>Success!</strong> ' + response.msg)
-                        .fadeIn();
+                    // Show success modal
+                    $('#successModal').fadeIn();
                     
                     // Reset form
                     $('#contactpage')[0].reset();
+                    
+                    // Auto close after 5 seconds
+                    setTimeout(function() {
+                        closeSuccessModal();
+                    }, 5000);
                 } else {
-                    messageDiv.removeClass('alert-success').addClass('alert-danger')
-                        .css({
-                            'background-color': '#f8d7da',
-                            'color': '#721c24',
-                            'border': '1px solid #f5c6cb'
-                        })
-                        .html('<strong>Error!</strong> ' + response.msg)
-                        .fadeIn();
+                    // Show error modal
+                    $('#errorMessage').text(response.msg);
+                    $('#errorModal').fadeIn();
                 }
                 
                 // Re-enable button
                 submitBtn.prop('disabled', false).html(originalBtnText);
-                
-                // Scroll to message
-                $('html, body').animate({
-                    scrollTop: messageDiv.offset().top - 100
-                }, 500);
-                
-                // Hide message after 5 seconds
-                setTimeout(function() {
-                    messageDiv.fadeOut();
-                }, 5000);
             },
             error: function() {
-                $('#form-message')
-                    .removeClass('alert-success').addClass('alert-danger')
-                    .css({
-                        'background-color': '#f8d7da',
-                        'color': '#721c24',
-                        'border': '1px solid #f5c6cb'
-                    })
-                    .html('<strong>Error!</strong> Something went wrong. Please try again.')
-                    .fadeIn();
+                $('#errorMessage').text('Something went wrong. Please try again.');
+                $('#errorModal').fadeIn();
                 
                 submitBtn.prop('disabled', false).html(originalBtnText);
             }
