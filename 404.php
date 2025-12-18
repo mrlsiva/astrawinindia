@@ -17,7 +17,7 @@
         .error-code {
             font-size: 120px;
             font-weight: 700;
-            color: #ff5e14;
+            color: #1b778e;
             line-height: 1;
             margin-bottom: 20px;
         }
@@ -40,7 +40,7 @@
         }
         .error-link {
             padding: 15px 30px;
-            background: #ff5e14;
+            background: #1b778e;
             color: #fff;
             text-decoration: none;
             border-radius: 5px;

@@ -127,7 +127,7 @@
     <div class="success-modal-content error-content">
         <div class="error-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52" width="80" height="80">
-                <circle cx="26" cy="26" r="25" fill="#ff5e14"/>
+                <circle cx="26" cy="26" r="25" fill="#1b778e"/>
                 <line x1="18" y1="18" x2="34" y2="34" stroke="white" stroke-width="3" stroke-linecap="round"/>
                 <line x1="34" y1="18" x2="18" y2="34" stroke="white" stroke-width="3" stroke-linecap="round"/>
             </svg>
@@ -165,7 +165,7 @@
 }
 
 .error-content {
-    border-top: 5px solid #ff5e14;
+    border-top: 5px solid #1b778e;
 }
 
 .success-checkmark {
@@ -233,7 +233,7 @@ svg.checkmark {
 }
 
 .success-btn {
-    background: linear-gradient(135deg, #ff5e14 0%, #ff8a3d 100%);
+    background: linear-gradient(135deg, #1b778e 0%, #ff8a3d 100%);
     color: white;
     border: none;
     padding: 12px 40px;
