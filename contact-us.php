@@ -170,6 +170,9 @@
 
 .success-checkmark {
     margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .checkmark {
@@ -180,7 +183,7 @@
     stroke-width: 3;
     stroke: #4CAF50;
     stroke-miterlimit: 10;
-    animation: fill 0.4s ease-in-out 0.4s forwards, scale 0.3s ease-in-out 0.9s both;
+    margin: 0 auto;
 }
 
 .checkmark-circle {
@@ -189,8 +192,8 @@
     stroke-width: 3;
     stroke-miterlimit: 10;
     stroke: #4CAF50;
-    fill: none;
-    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+    fill: #f0f9f0;
+    animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards, fillCircle 0.4s ease-in-out 0.4s forwards;
 }
 
 .checkmark-check {
@@ -198,7 +201,14 @@
     stroke-dasharray: 48;
     stroke-dashoffset: 48;
     stroke: #4CAF50;
+    stroke-width: 3;
     animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes fillCircle {
+    100% {
+        fill: #4CAF50;
+    }
 }
 
 .error-icon {
@@ -316,6 +326,35 @@ jQuery(document).ready(function($) {
     $('#contactpage').off('submit').on('submit', function(e) {
         e.preventDefault();
         e.stopPropagation();
+        
+        // Form validation
+        var name = $('#name').val().trim();
+        var email = $('#emailid').val().trim();
+        var phone = $('#phone').val().trim();
+        var message = $('#msg').val().trim();
+        
+        // Check if all required fields are filled
+        if (!name || !email || !phone || !message) {
+            $('#errorMessage').text('Please fill in all required fields.');
+            $('#errorModal').fadeIn();
+            return false;
+        }
+        
+        // Email validation
+        var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailPattern.test(email)) {
+            $('#errorMessage').text('Please enter a valid email address.');
+            $('#errorModal').fadeIn();
+            return false;
+        }
+        
+        // Phone validation (basic check for numbers)
+        var phonePattern = /^[0-9]{10,}$/;
+        if (!phonePattern.test(phone.replace(/[\s\-\+\(\)]/g, ''))) {
+            $('#errorMessage').text('Please enter a valid phone number (minimum 10 digits).');
+            $('#errorModal').fadeIn();
+            return false;
+        }
         
         var formData = $(this).serialize();
         var submitBtn = $(this).find('button[type="submit"]');
