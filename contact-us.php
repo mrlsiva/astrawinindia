@@ -174,7 +174,9 @@
     justify-content: center;
     align-items: center;
 }
-
+svg.checkmark {
+    margin: 0 auto;
+}
 .checkmark {
     width: 80px;
     height: 80px;
@@ -200,7 +202,7 @@
     transform-origin: 50% 50%;
     stroke-dasharray: 48;
     stroke-dashoffset: 48;
-    stroke: #4CAF50;
+    stroke: #fff;
     stroke-width: 3;
     animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
 }
