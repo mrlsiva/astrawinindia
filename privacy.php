@@ -30,7 +30,7 @@
             margin-bottom: 40px;
             padding: 20px;
             background: #f8f9fa;
-            border-left: 4px solid #ff5e14;
+            border-left: 4px solid #222221;
             border-radius: 4px;
         }
         
@@ -49,7 +49,7 @@
         }
         
         .privacy-section-item h2 {
-            color: #ff5e14;
+            color: #222221;
             font-size: 24px;
             font-weight: 600;
             margin-bottom: 20px;
@@ -89,7 +89,7 @@
         
         .privacy-section-item ul li:before {
             content: "•";
-            color: #ff5e14;
+            color: #222221;
             font-weight: bold;
             font-size: 20px;
             position: absolute;
@@ -114,7 +114,7 @@
         
         .privacy-section-item ol li:before {
             content: counter(item) ".";
-            color: #ff5e14;
+            color: #222221;
             font-weight: bold;
             position: absolute;
             left: 10px;
@@ -126,7 +126,7 @@
             background: #f8f9fa;
             border-radius: 8px;
             text-align: center;
-            border: 2px dashed #ff5e14;
+            border: 2px dashed #222221;
         }
         
         .privacy-footer-note p {
@@ -137,7 +137,7 @@
         }
         
         .contact-email {
-            color: #ff5e14;
+            color: #222221;
             font-weight: 600;
             text-decoration: none;
         }
@@ -215,7 +215,7 @@
             <h1 data-aos="fade-up">PRIVACY POLICY – ASTRAWIN INDIA PRIVATE LIMITED</h1>
 
             <div class="privacy-section-item" data-aos="fade-up">
-                <h2>1. Introduction</h2>
+                <h2>Last Updated: November 30, 2025</h2>
                 <p>ASTRAWIN INDIA PRIVATE LIMITED ("Company", "we", "us", or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, store, and protect your personal data when you access our website, software products, IoT platforms, mobile applications, and IT services.</p>
                 <div class="privacy-intro">
                     <p><strong>By using our services, you confirm that you have read and agreed to this Privacy Policy.</strong></p>
@@ -223,7 +223,7 @@
             </div>
 
             <div class="privacy-section-item" data-aos="fade-up">
-                <h2>2. Information We Collect</h2>
+                <h2>1. Information We Collect</h2>
                 <p>We may collect the following types of information:</p>
                 
                 <h3>a. Personal Information</h3>
@@ -251,7 +251,7 @@
             </div>
 
             <div class="privacy-section-item" data-aos="fade-up">
-                <h2>3. How We Use Your Information</h2>
+                <h2>2. How We Use Your Information</h2>
                 <p>We use collected data for:</p>
                 <ul>
                     <li>Account registration & authentication</li>
@@ -264,7 +264,7 @@
             </div>
 
             <div class="privacy-section-item" data-aos="fade-up">
-                <h2>4. Legal Basis for Processing</h2>
+                <h2>3. Legal Basis for Processing</h2>
                 <p>We process data under:</p>
                 <ul>
                     <li>User Consent</li>
@@ -275,7 +275,7 @@
             </div>
 
             <div class="privacy-section-item" data-aos="fade-up">
-                <h2>5. Data Sharing & Disclosure</h2>
+                <h2>4. Data Sharing & Disclosure</h2>
                 <p><strong>We do not sell personal data.</strong></p>
                 <p>We may share data with:</p>
                 <ol>
@@ -287,7 +287,7 @@
             </div>
 
             <div class="privacy-section-item" data-aos="fade-up">
-                <h2>6. Data Retention</h2>
+                <h2>5. Data Retention</h2>
                 <p>We retain personal data only as long as necessary for business, legal, and audit purposes. IoT/usage logs may be anonymized and retained for analytics.</p>
             </div>
 
@@ -306,12 +306,12 @@
             </div>
 
             <div class="privacy-section-item" data-aos="fade-up">
-                <h2>8. Cookies & Tracking</h2>
+                <h2>7. Cookies & Tracking</h2>
                 <p>We use cookies and similar technologies for session management, analytics, and personalization. You may disable cookies through browser settings.</p>
             </div>
 
             <div class="privacy-section-item" data-aos="fade-up">
-                <h2>9. Security Measures</h2>
+                <h2>8. Security Measures</h2>
                 <p>We implement industry-standard security including:</p>
                 <ul>
                     <li>End-to-end encrypted data transmission (HTTPS)</li>
@@ -323,7 +323,7 @@
             </div>
 
             <div class="privacy-section-item" data-aos="fade-up">
-                <h2>10. Children's Privacy</h2>
+                <h2>9. Children's Privacy</h2>
                 <p>We do not knowingly collect data from children under 18.</p>
             </div>
 
@@ -336,7 +336,7 @@
                 <p><strong>For any questions or concerns regarding this Privacy Policy, please contact us at <a href="mailto:info@astrawinindia.com" class="contact-email">info@astrawinindia.com</a></strong></p>
             </div>
 
-            <p class="last-updated">Last Updated: November 30, 2025</p>
+            <!-- <p class="last-updated">Last Updated: November 30, 2025</p> -->
         </div>
     </div>
 </section>

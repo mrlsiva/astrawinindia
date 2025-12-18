@@ -30,14 +30,14 @@
             margin-bottom: 40px;
             padding: 20px;
             background: #f8f9fa;
-            border-left: 4px solid #ff5e14;
+            border-left: 4px solid #222221;
             border-radius: 4px;
         }
         
         .effective-date {
             text-align: center;
             font-size: 16px;
-            color: #ff5e14;
+            color: #222221;
             font-weight: 600;
             margin-bottom: 30px;
         }
@@ -57,7 +57,7 @@
         }
         
         .terms-section-item h2 {
-            color: #ff5e14;
+            color: #222221;
             font-size: 24px;
             font-weight: 600;
             margin-bottom: 20px;
@@ -97,7 +97,7 @@
         
         .terms-section-item ul li:before {
             content: "•";
-            color: #ff5e14;
+            color: #222221;
             font-weight: bold;
             font-size: 20px;
             position: absolute;
@@ -110,7 +110,7 @@
             background: #f8f9fa;
             border-radius: 8px;
             text-align: center;
-            border: 2px dashed #ff5e14;
+            border: 2px dashed #222221;
         }
         
         .terms-footer-note p {
@@ -121,7 +121,7 @@
         }
         
         .contact-email {
-            color: #ff5e14;
+            color: #222221;
             font-weight: 600;
             text-decoration: none;
         }
@@ -132,7 +132,7 @@
         
         .highlight-box {
             background: #fff3e0;
-            border-left: 4px solid #ff5e14;
+            border-left: 4px solid #222221;
             padding: 15px 20px;
             margin: 15px 0;
             border-radius: 4px;

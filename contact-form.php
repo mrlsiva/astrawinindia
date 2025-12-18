@@ -25,7 +25,7 @@ if(isset($name) && isset($phone) && isset($emailHelp))
 					<table width="600" cellpadding="0" cellspacing="0" border="0" style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
 						<!-- Header -->
 						<tr>
-							<td style="background: linear-gradient(135deg, #ff5e14 0%, #ff8a3d 100%); padding: 30px; text-align: center;">
+							<td style="background: linear-gradient(135deg, #222221 0%, #ff8a3d 100%); padding: 30px; text-align: center;">
 								<h1 style="margin: 0; color: #ffffff; font-size: 28px; font-weight: 700;">New Contact Form Submission</h1>
 								<p style="margin: 10px 0 0 0; color: #ffffff; font-size: 14px; opacity: 0.9;">From Astrawin India Website</p>
 							</td>
@@ -50,13 +50,13 @@ if(isset($name) && isset($phone) && isset($emailHelp))
 						<!-- Contact Details -->
 						<tr>
 							<td style="padding: 40px 30px;">
-								<h2 style="margin: 0 0 25px 0; color: #1a1a1a; font-size: 20px; font-weight: 600; border-bottom: 2px solid #ff5e14; padding-bottom: 10px;">Contact Information</h2>
+								<h2 style="margin: 0 0 25px 0; color: #1a1a1a; font-size: 20px; font-weight: 600; border-bottom: 2px solid #222221; padding-bottom: 10px;">Contact Information</h2>
 								
 								<!-- Name -->
 								<table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom: 20px;">
 									<tr>
 										<td width="40" valign="top">
-											<div style="width: 35px; height: 35px; background: linear-gradient(135deg, #ff5e14 0%, #ff8a3d 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+											<div style="width: 35px; height: 35px; background: linear-gradient(135deg, #222221 0%, #ff8a3d 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
 												<span style="color: white; font-size: 16px;">👤</span>
 											</div>
 										</td>
@@ -106,7 +106,7 @@ if(isset($name) && isset($phone) && isset($emailHelp))
 									<tr>
 										<td>
 											<h3 style="margin: 0 0 15px 0; color: #1a1a1a; font-size: 16px; font-weight: 600; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px;">Message</h3>
-											<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #ff5e14;">
+											<div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #222221;">
 												<p style="margin: 0; color: #555; font-size: 15px; line-height: 1.6;">'.nl2br(htmlspecialchars($comments)).'</p>
 											</div>
 										</td>

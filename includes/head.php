@@ -20,10 +20,18 @@
     <meta name="twitter:description" content="Leading IT solutions provider specializing in Software Development, IoT Systems, Cybersecurity, and Infrastructure Management.">
     <meta name="twitter:image" content="https://www.astrawinindia.com/assets/images/logo/astrawin-logo.png">
     
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.astrawinindia.com<?php echo $_SERVER['PHP_SELF'] == '/index.php' ? '/' : $_SERVER['PHP_SELF']; ?>">
+    
     <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon/android-icon-192x192.png">
     
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
+    
+    <!-- Preconnect for faster font loading -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://unpkg.com">
+    
     <!-- Latest compiled and minified CSS -->
     <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/js/bootstrap.min.js">
@@ -34,3 +42,41 @@
     <link href="assets/css/responsive.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Astrawin India Private Limited",
+        "url": "https://www.astrawinindia.com",
+        "logo": "https://www.astrawinindia.com/assets/images/logo/astrawin-logo.png",
+        "description": "Leading IT solutions provider offering Software Development, IoT Systems, Managed IT Services, Cybersecurity, Infrastructure Management, and Next-Generation Workspace Technologies.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "#232, 46th Street TVS Colony, Anna Nagar West Extn",
+            "addressLocality": "Chennai",
+            "postalCode": "600101",
+            "addressCountry": "IN"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+91-XXXXXXXXXX",
+            "contactType": "Customer Service",
+            "email": "info@astrawinindia.com"
+        },
+        "sameAs": [
+            "https://www.linkedin.com/company/astrawinindia",
+            "https://twitter.com/astrawinindia"
+        ]
+    }
+    </script>

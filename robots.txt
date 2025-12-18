@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Disallow sensitive areas
+Disallow: /includes/
+Disallow: /backup/
+Disallow: /ref/
+Disallow: /assets/scss/
+Disallow: /contact-form.php
+
+# Sitemap location
+Sitemap: https://www.astrawinindia.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1

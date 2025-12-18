@@ -30,7 +30,7 @@
             margin-bottom: 40px;
             padding: 20px;
             background: #f8f9fa;
-            border-left: 4px solid #ff5e14;
+            border-left: 4px solid #222221;
             border-radius: 4px;
         }
         
@@ -49,7 +49,7 @@
         }
         
         .disclaimer-section-item h2 {
-            color: #ff5e14;
+            color: #222221;
             font-size: 24px;
             font-weight: 600;
             margin-bottom: 20px;
@@ -81,7 +81,7 @@
         
         .disclaimer-section-item ul li:before {
             content: "•";
-            color: #ff5e14;
+            color: #222221;
             font-weight: bold;
             font-size: 20px;
             position: absolute;
@@ -94,7 +94,7 @@
             background: #f8f9fa;
             border-radius: 8px;
             text-align: center;
-            border: 2px dashed #ff5e14;
+            border: 2px dashed #222221;
         }
         
         .disclaimer-footer-note p {
