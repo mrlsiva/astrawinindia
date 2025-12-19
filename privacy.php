@@ -292,7 +292,7 @@
             </div>
 
             <div class="privacy-section-item" data-aos="fade-up">
-                <h2>7. Your Rights</h2>
+                <h2>6. Your Rights</h2>
                 <p>Depending on applicable laws, you may request:</p>
                 <ul>
                     <li>Access to your data</li>
@@ -328,7 +328,7 @@
             </div>
 
             <div class="privacy-section-item" data-aos="fade-up">
-                <h2>11. Changes to This Policy</h2>
+                <h2>10. Changes to This Policy</h2>
                 <p>We may update this policy periodically. Changes will be posted on our website with an updated "Last Updated" date.</p>
             </div>
 
